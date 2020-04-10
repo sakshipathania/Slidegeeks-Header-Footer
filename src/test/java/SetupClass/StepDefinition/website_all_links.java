@@ -181,6 +181,7 @@ public class website_all_links extends Setup {
 
 	@Then("^About Us Page\\.$")
 	public void about_Us_Page() throws Throwable {
+		try {
 		WebElement about_us_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title=' About Us'][contains(.,'About Us')]")));
 		clear_cache();
 		Thread.sleep(3000);
@@ -189,6 +190,8 @@ public class website_all_links extends Setup {
 		Thread.sleep(3000);
 		chat_pop_up();
 		err_page();
+	} catch (NoSuchElementException popup) {
+		}
 	}
 
 	@Then("^How it Works page\\.$")
