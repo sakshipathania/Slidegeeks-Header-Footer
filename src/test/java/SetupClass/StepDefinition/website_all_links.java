@@ -190,7 +190,7 @@ public class website_all_links extends Setup {
 		Thread.sleep(3000);
 		chat_pop_up();
 		err_page();
-	} catch (NoSuchElementException popup) {
+	    catch (Exception e) {
 		}
 	}
 
