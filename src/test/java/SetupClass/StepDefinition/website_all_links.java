@@ -197,7 +197,7 @@ public class website_all_links extends Setup {
 
 	@Then("^How it Works page\\.$")
 	public void how_it_Works_page() throws Throwable {
-		try {
+		
 		WebElement how_works_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='How It Works'][contains(.,'How It Works')]")));
 		clear_cache();
 		Thread.sleep(3000);
@@ -206,8 +206,7 @@ public class website_all_links extends Setup {
 		Thread.sleep(3000);
 		chat_pop_up();
 		err_page();
-		} catch (NoSuchElementException e) {
-		}
+		
 	}
 
 	@Then("^Site Map Page\\.$")
