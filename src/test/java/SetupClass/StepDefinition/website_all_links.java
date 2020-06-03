@@ -8,6 +8,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.JavascriptExecutor;
+
 
 import SetupClass.Setup;
 import cucumber.api.java.en.Given;
@@ -17,6 +19,7 @@ import gherkin.lexer.Th;
 public class website_all_links extends Setup {
 	
 	WebDriverWait wait = new WebDriverWait(driver,50);
+	JavascriptExecutor js = (JavascriptExecutor) driver;
 	
 	public void clear_cache() throws InterruptedException
 	{
@@ -172,6 +175,7 @@ public class website_all_links extends Setup {
 		WebElement template_finder= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='menu-link'][contains(.,'Template Finder')]")));
 		clear_cache();
 		Thread.sleep(3000);
+		js.executeScript("arguments[0].scrollIntoView();",template_finder);
 		template_finder.click();
 		log.info("TEMPLATE FINDER");
 		Thread.sleep(3000);
@@ -185,6 +189,7 @@ public class website_all_links extends Setup {
 		WebElement about_us_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title=' About Us'][contains(.,'About Us')]")));
 		clear_cache();
 		Thread.sleep(3000);
+		js.executeScript("arguments[0].scrollIntoView();",about_us_footer);
 		about_us_footer.click();
 		log.info("FOOTER --> ABOUT US");
 		Thread.sleep(3000);
@@ -200,6 +205,7 @@ public class website_all_links extends Setup {
 		
 		WebElement how_works_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='How It Works'][contains(.,'How It Works')]")));
 		clear_cache();
+		js.executeScript("arguments[0].scrollIntoView();",how_works_footer);
 		Thread.sleep(3000);
 		how_works_footer.click();
 		log.info("FOOTER --> HOW IT WORKS");
@@ -213,6 +219,7 @@ public class website_all_links extends Setup {
 	public void site_Map_Page() throws Throwable {
 		WebElement site_map_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Site Map'][contains(.,'Site Map')]")));
 		clear_cache();
+		js.executeScript("arguments[0].scrollIntoView();",site_map_footer);
 		Thread.sleep(3000);
 		site_map_footer.click();
 		log.info("FOOTER --> SITE MAP");
@@ -226,6 +233,7 @@ public class website_all_links extends Setup {
 		WebElement contact_us_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title=' Contact Us'][contains(.,'Contact Us')]")));
 		clear_cache();
 		Thread.sleep(3000);
+		js.executeScript("arguments[0].scrollIntoView();",contact_us_footer);
 		contact_us_footer.click();
 		log.info("FOOTER --> CONTACT US");
 		Thread.sleep(3000);
@@ -238,6 +246,7 @@ public class website_all_links extends Setup {
 		WebElement faq_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='FAQ'][contains(.,'FAQ')]")));
 		clear_cache();
 		Thread.sleep(3000);
+		js.executeScript("arguments[0].scrollIntoView();",faq_footer);
 		faq_footer.click();
 		log.info("FOOTER --> FAQ");
 		Thread.sleep(3000);
@@ -249,6 +258,7 @@ public class website_all_links extends Setup {
 	public void terms_of_Use_Page() throws Throwable {
 		WebElement terms_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title=' Terms of Use'][contains(.,'Terms of Use')]")));
 		clear_cache();
+		js.executeScript("arguments[0].scrollIntoView();",terms_footer);
 		Thread.sleep(3000);
 		terms_footer.click();
 		log.info("FOOTER --> TERMS OF USE");
@@ -261,6 +271,7 @@ public class website_all_links extends Setup {
 	public void privacy_Policy_Page() throws Throwable {
 		WebElement p_policy_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Privacy Policy'][contains(.,'Privacy Policy')]")));
 		clear_cache();
+		js.executeScript("arguments[0].scrollIntoView();",p_policy_footer);
 		Thread.sleep(3000);
 		p_policy_footer.click();
 		log.info("FOOTER --> PRIVACY POLICY");
@@ -274,6 +285,7 @@ public class website_all_links extends Setup {
 		WebElement popular_free_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Popular Free Slides'][contains(.,'Popular Free Slides')]")));
 		Thread.sleep(3000);
 		clear_cache();
+		js.executeScript("arguments[0].scrollIntoView();",popular_free_footer);
 		popular_free_footer.click();
 		log.info("FOOTER --> POPULAR FREE SLIDES");
 		Thread.sleep(3000);
@@ -286,6 +298,7 @@ public class website_all_links extends Setup {
 		WebElement rs_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Research Services'][contains(.,'Research Services')]")));
 		Thread.sleep(3000);
 		clear_cache();
+		js.executeScript("arguments[0].scrollIntoView();",rs_footer);
 		rs_footer.click();
 		log.info("FOOTER --> RESEARCH SERVICES");
 		Thread.sleep(3000);
@@ -298,6 +311,7 @@ public class website_all_links extends Setup {
 		WebElement g_slide_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Google Slides'][contains(.,'Google Slides')]")));
 		Thread.sleep(3000);
 		clear_cache();
+		js.executeScript("arguments[0].scrollIntoView();",g_slide_footer);
 		g_slide_footer.click();
 		log.info("FOOTER --> GOOGLE SLIDES");
 		Thread.sleep(3000);
@@ -317,6 +331,7 @@ public class website_all_links extends Setup {
 		WebElement footer_1= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@href='/powerpoint-presentation-slides/advertising-powerpoint-templates-and-presentation-slides.html'][contains(.,'Advertising')]")));
 		Thread.sleep(3000);
 		clear_cache();
+		js.executeScript("arguments[0].scrollIntoView();",footer_1);
 		footer_1.click();
 		log.info("FOOTER --> 1 || DIAGRAM || ADVERTISING");
 		chat_pop_up();
@@ -331,6 +346,7 @@ public class website_all_links extends Setup {
 		WebElement footer_1_1= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@href='/powerpoint-presentation-slides.html'][contains(.,'View all')]")));
 		Thread.sleep(3000);
 		clear_cache();
+		js.executeScript("arguments[0].scrollIntoView();",footer_1_1);
 		footer_1_1.click();
 		log.info("FOOTER --> 1 || DIAGRAM || VIEW ALL");
 		chat_pop_up();
@@ -345,6 +361,7 @@ public class website_all_links extends Setup {
 		WebElement footer_2= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@href='/powerpoint-presentation-essentials/about-us-company-detail-templates.html'][contains(.,'About Us Company Details')]")));
 		Thread.sleep(3000);
 		clear_cache();
+		js.executeScript("arguments[0].scrollIntoView();",footer_2);
 		footer_2.click();
 		log.info("FOOTER --> 2 || BUSINESS SLIDES || ABOUT US COMPANY DETAILS");
 		chat_pop_up();
@@ -359,6 +376,7 @@ public class website_all_links extends Setup {
 		WebElement footer_2_1= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@href='/powerpoint-presentation-essentials.html'][contains(.,'View all')]")));
 		Thread.sleep(3000);
 		clear_cache();
+		js.executeScript("arguments[0].scrollIntoView();",footer_2_1);
 		footer_2_1.click();
 		log.info("FOOTER --> 2 || BUSINESS SLIDES || VIEW ALL");
 		chat_pop_up();
@@ -372,6 +390,7 @@ public class website_all_links extends Setup {
 		
 		WebElement footer_3= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@href='/flat-design-diagrams/arrows-targets-flat-design.html'][contains(.,'Arrows and Targets')]")));
 		Thread.sleep(3000);
+		js.executeScript("arguments[0].scrollIntoView();",footer_3);
 		footer_3.click();
 		log.info("FOOTER --> 3 || FLAT DESIGNS || ARROWS AND TARGETS ");
 		chat_pop_up();
@@ -385,6 +404,7 @@ public class website_all_links extends Setup {
 	    
 		WebElement footer_3_1= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@href='/flat-design-diagrams.html'][contains(.,'View all')]")));
 		Thread.sleep(3000);
+		js.executeScript("arguments[0].scrollIntoView();",footer_3_1);
 		footer_3_1.click();
 		log.info("FOOTER --> 3 || FLAT DESIGNS || VIEW ALL ");
 		chat_pop_up();
@@ -398,6 +418,7 @@ public class website_all_links extends Setup {
 	    
 		WebElement footer_4= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@href='/powerpoint-templates/abstract.html'][contains(.,'Abstract')]")));
 		Thread.sleep(3000);
+		js.executeScript("arguments[0].scrollIntoView();",footer_4);
 		footer_4.click();
 		log.info("FOOTER --> 4 || THEMES || ABSTRACT");
 		chat_pop_up();
@@ -411,6 +432,7 @@ public class website_all_links extends Setup {
 		
 		WebElement footer_4_1= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@href='/powerpoint-templates.html'][contains(.,'View all')]")));
 		Thread.sleep(3000);
+		js.executeScript("arguments[0].scrollIntoView();",footer_4_1);
 		footer_4_1.click();
 		log.info("FOOTER --> 4 || THEMES || VIEW ALL");
 		chat_pop_up();
@@ -424,6 +446,7 @@ public class website_all_links extends Setup {
 		
 		WebElement footer_5= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@href='/powerpoint-images/abstract.html'][contains(.,'Abstract')]")));
 		Thread.sleep(3000);
+		js.executeScript("arguments[0].scrollIntoView();",footer_5);
 		footer_5.click();
 		log.info("FOOTER --> 5 || ICONS || ABSTRACT");
 		chat_pop_up();
@@ -438,6 +461,7 @@ public class website_all_links extends Setup {
 		
 		  WebElement footer_5_1= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@href='/powerpoint-images.html'][contains(.,'View all')]")));
 		  Thread.sleep(3000); 
+		js.executeScript("arguments[0].scrollIntoView();",footer_5_1);
 		  footer_5_1.click();
 		  log.info("FOOTER --> 5 || ICONS || VIEW ALL"); 
 		  chat_pop_up();
