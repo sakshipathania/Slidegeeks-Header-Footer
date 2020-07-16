@@ -5,6 +5,7 @@ Feature: SlideTeam Links
 Scenario: 
 
 	Given Open the Website URL.
+	Then user enter email and password epu
 	Then Check Ebooks Page.
 	Then Pricing Page.
 	Then Free PPTs Page.
