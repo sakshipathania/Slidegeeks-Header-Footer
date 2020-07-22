@@ -19,7 +19,6 @@ Scenario:
 Scenario Outline: Footer Quick Links.
 
 	Then About Us Page.
-	Then How it Works page.
 	Then Site Map Page.
 	Then Contact Us Page.
 	Then FAQ Page.
@@ -30,41 +29,4 @@ Scenario Outline: Footer Quick Links.
 	Then Research Services Page.
 	Then Google Slides Page.
 
-
-Examples:
-
-|Email Address| |Password|
-|himanshi.sharma@slidetech.in| |123456|
-
-	@1_Diagrams
-	Scenario: Test Diagram Footer.
-		Given user is already on Website Footer.
-		Then Advertising Test Diagram Page.
-		Then View All Test Diagram Page.
-	
-	@2_Business_Slides
-	Scenario: Business Slides Footer.
-		Given user is already on Website Footer.
-		Then About Us Company Details Business Details Page.
-		Then View All Business Slides Page.
-	
-	@3_Flat_Designs
-	Scenario: Arrows and Targets Footer.
-		Given user is already on Website Footer.
-		Then Arrows and Targets Flat Designs Page.
-		Then View All Flat Designs Page.
-	
-	@4_Themes
-	Scenario: Themes Footer.
-		Given user is already on Website Footer.
-		Then Abstract Themes Page.
-		Then View All Themes Page.
-	
-	@5_Icons
-	Scenario: Icons Footer.
-		Given user is already on Website Footer.
-		Then Abstract Icons Page.
-		Then View All Icons Page.
-	
-	
 
