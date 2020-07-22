@@ -224,20 +224,6 @@ public class website_all_links extends Setup {
 		}
 	}
 
-	@Then("^How it Works page\\.$")
-	public void how_it_Works_page() throws Throwable {
-		
-		WebElement how_works_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='How It Works'][contains(.,'How It Works')]")));
-		clear_cache();
-		js.executeScript("arguments[0].scrollIntoView();",how_works_footer);
-		Thread.sleep(3000);
-		how_works_footer.click();
-		log.info("FOOTER --> HOW IT WORKS");
-		Thread.sleep(3000);
-		chat_pop_up();
-		err_page();
-		
-	}
 
 	@Then("^Site Map Page\\.$")
 	public void site_Map_Page() throws Throwable {
