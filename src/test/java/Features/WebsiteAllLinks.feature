@@ -31,10 +31,6 @@ Scenario Outline: Footer Quick Links.
 	Then Google Slides Page.
 	The Coupon Code.
 	Then Newly Added.
-
-@Footer_Free_Stuff
-Scenario Outline: Footer Free Stuff.
-
 	Given user is already on Website Footer.
 	Then Free Business PPT.
 	Then Free PPTs.
