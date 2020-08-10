@@ -105,19 +105,7 @@ public class website_all_links extends Setup {
 	       WebElement old_paid_login_btn=wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("button.login > span:nth-child(1)")));
 	       old_paid_login_btn.click();
         }
-
-	@Then("^Check Ebooks Page\\.$")
-	public void check_Ebooks_Page() throws Throwable {
-		WebElement ebook = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='menu-link'][contains(.,'eBooks')]")));
-		clear_cache();
-		Thread.sleep(3000);
-		ebook.click();
-		log.info("EBOOKS");
-		Thread.sleep(3000);
-		chat_pop_up();
-		err_page();
-	}
-
+	
 	@Then("^Pricing Page\\.$")
 	public void pricing_Page() throws Throwable {
 	    
@@ -131,7 +119,7 @@ public class website_all_links extends Setup {
 		err_page();
 		
 	}
-
+        
 	@Then("^Free PPTs Page\\.$")
 	public void free_PPTs_Page() throws Throwable {
 	    
@@ -145,30 +133,45 @@ public class website_all_links extends Setup {
 		err_page();
 		 
 	}
-
-	@Then("^Most Downloaded Page\\.$")
-	public void most_Downloaded_Page() throws Throwable {
-		WebElement most_download_ppt = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='menu-link'][contains(.,'Most Downloaded')]")));
+	
+	@Then("^Popular PPT Page\\.$")
+	public void Popular_PPT_Page() throws Throwable {
+		WebElement Popular_ppt = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='menu-link'][contains(.,'Popular PPTs')]")));
 		clear_cache();
 		Thread.sleep(3000);
-		most_download_ppt.click();
-		log.info("MOST DOWNLOADED");
+		Popular_ppt.click();
+		log.info("Popular PPTs");
+		Thread.sleep(3000);
+		chat_pop_up();
+		err_page();
+	}
+	
+	@Then("^Template Finder Page\\.$")
+	public void template_Finder_Page() throws Throwable {
+		WebElement template_finder= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='menu-link'][contains(.,'Template Finder')]")));
+		clear_cache();
+		Thread.sleep(3000);
+		js.executeScript("arguments[0].scrollIntoView();",template_finder);
+		template_finder.click();
+		log.info("TEMPLATE FINDER");
 		Thread.sleep(3000);
 		chat_pop_up();
 		err_page();
 	}
 
-	@Then("^Newly Added Page\\.$")
-	public void newly_Added_Page() throws Throwable {
-		WebElement new_add_ppt = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='menu-link'][contains(.,'Newly Added')]")));
+
+	@Then("^Check Ebooks Page\\.$")
+	public void check_Ebooks_Page() throws Throwable {
+		WebElement ebook = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='menu-link'][contains(.,'eBooks')]")));
 		clear_cache();
 		Thread.sleep(3000);
-		new_add_ppt.click();
-		log.info("NEWLY ADDED");
+		ebook.click();
+		log.info("EBOOKS");
 		Thread.sleep(3000);
 		chat_pop_up();
 		err_page();
 	}
+
 
 	@Then("^Blog Page\\.$")
 	public void blog_Page() throws Throwable {
@@ -194,18 +197,7 @@ public class website_all_links extends Setup {
 		err_page();
 	}
 
-	@Then("^Template Finder Page\\.$")
-	public void template_Finder_Page() throws Throwable {
-		WebElement template_finder= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='menu-link'][contains(.,'Template Finder')]")));
-		clear_cache();
-		Thread.sleep(3000);
-		js.executeScript("arguments[0].scrollIntoView();",template_finder);
-		template_finder.click();
-		log.info("TEMPLATE FINDER");
-		Thread.sleep(3000);
-		chat_pop_up();
-		err_page();
-	}
+	
 
 	@Then("^About Us Page\\.$")
 	public void about_Us_Page() throws Throwable {
@@ -302,6 +294,20 @@ public class website_all_links extends Setup {
 		chat_pop_up();
 		err_page();
 	}
+	
+	@Then("^Custom Design Services Page\\.$")
+	public void Custom_Design_Services_Page() throws Throwable {
+		WebElement cds_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Research Services'][contains(.,'Custom Design Services')]")));
+		Thread.sleep(3000);
+		clear_cache();
+		js.executeScript("arguments[0].scrollIntoView();",cds_footer);
+		cds_footer.click();
+		log.info("FOOTER --> CUSTOM DESIGN SERVICES");
+		Thread.sleep(3000);
+		chat_pop_up();
+		err_page();
+	}
+
 
 	@Then("^Research Services Page\\.$")
 	public void research_Services_Page() throws Throwable {
@@ -311,6 +317,19 @@ public class website_all_links extends Setup {
 		js.executeScript("arguments[0].scrollIntoView();",rs_footer);
 		rs_footer.click();
 		log.info("FOOTER --> RESEARCH SERVICES");
+		Thread.sleep(3000);
+		chat_pop_up();
+		err_page();
+	}
+	
+	@Then("^Resume Services Page\\.$")
+	public void Resume_Services_Page() throws Throwable {
+		WebElement Resume_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Research Services'][contains(.,'Resume Services')]")));
+		Thread.sleep(3000);
+		clear_cache();
+		js.executeScript("arguments[0].scrollIntoView();",Resume_footer);
+		Resume_footer.click();
+		log.info("FOOTER --> RESUME SERVICES");
 		Thread.sleep(3000);
 		chat_pop_up();
 		err_page();
@@ -328,163 +347,232 @@ public class website_all_links extends Setup {
 		chat_pop_up();
 		err_page();
 	}
+	
+		@Then("^Coupon Code\\.$")
+	public void Coupon_Code() throws Throwable {
+		WebElement CC_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Google Slides'][contains(.,'Google Slides')]")));
+		Thread.sleep(3000);
+		clear_cache();
+		js.executeScript("arguments[0].scrollIntoView();",CC_slide_footer);
+		CC_slide_footer.click();
+		log.info("FOOTER --> COUPON CODE);
+		Thread.sleep(3000);
+		chat_pop_up();
+		err_page();
+	}
+	
+		@Then("^Newly Added\\.$")
+	public void Newly_Added() throws Throwable {
+		WebElement nd_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Google Slides'][contains(.,'Google Slides')]")));
+		Thread.sleep(3000);
+		clear_cache();
+		js.executeScript("arguments[0].scrollIntoView();",nd_footer);
+		nd_footer.click();
+		log.info("FOOTER --> NEWLY ADDED");
+		Thread.sleep(3000);
+		chat_pop_up();
+		err_page();
+	}
 
+  			 
+			 
 	@Given("^user is already on Website Footer\\.$")
 	public void user_is_already_on_Website_Footer() throws Throwable {
 		
 	  
 	}
 
-	@Then("^Advertising Test Diagram Page\\.$")
-	public void advertising_Test_Diagram_Page() throws Throwable {
+	@Then("^Free Business PPT\\.$")
+	public void Free_Business_PPT() throws Throwable {
 		
-		WebElement footer_1= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@href='/powerpoint-presentation-slides/advertising-powerpoint-templates-and-presentation-slides.html'][contains(.,'Advertising')]")));
+		WebElement footer_1= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@href='/best-presentation-on-myself-powerpoint-presentation-slide.html'][contains(.,'Free Business PPT')]")));
 		Thread.sleep(3000);
 		clear_cache();
 		js.executeScript("arguments[0].scrollIntoView();",footer_1);
 		footer_1.click();
-		log.info("FOOTER --> 1 || DIAGRAM || ADVERTISING");
+		log.info("FOOTER --> 1 || FREE STUFF || FREE BUSINESS PPT");
 		chat_pop_up();
 		Thread.sleep(1500);
 		err_page();
 	    
 	}
 
-	@Then("^View All Test Diagram Page\\.$")
-	public void view_All_Test_Diagram_Page() throws Throwable {
+	@Then("^Free PPTs\\.$")
+	public void Free_PPTs() throws Throwable {
 		
-		WebElement footer_1_1= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@href='/powerpoint-presentation-slides.html'][contains(.,'View all')]")));
+		WebElement footer_Free_PPT= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[1]/ul/li[2]/a")));
 		Thread.sleep(3000);
 		clear_cache();
-		js.executeScript("arguments[0].scrollIntoView();",footer_1_1);
-		footer_1_1.click();
-		log.info("FOOTER --> 1 || DIAGRAM || VIEW ALL");
+		js.executeScript("arguments[0].scrollIntoView();",footer_Free_PPT);
+		footer_Free_PPT.click();
+		log.info("FOOTER --> 2 || FREE STUFF || FREE PPTS");
 		chat_pop_up();
 		Thread.sleep(1500);
 		err_page();
 	    
 	}
 
-	@Then("^About Us Company Details Business Details Page\\.$")
-	public void about_Us_Company_Details_Business_Details_Page() throws Throwable {
+	@Then("^Free PPT template\\.$")
+	public void Free_PPT_template() throws Throwable {
 		
-		WebElement footer_2= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@href='/powerpoint-presentation-essentials/about-us-company-detail-templates.html'][contains(.,'About Us Company Details')]")));
+		WebElement footer_Free_PPT_template= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[1]/ul/li[3]/a")));
 		Thread.sleep(3000);
 		clear_cache();
-		js.executeScript("arguments[0].scrollIntoView();",footer_2);
-		footer_2.click();
-		log.info("FOOTER --> 2 || BUSINESS SLIDES || ABOUT US COMPANY DETAILS");
+		js.executeScript("arguments[0].scrollIntoView();",footer_Free_PPT_template);
+		footer_Free_PPT_template.click();
+		log.info("FOOTER --> 3 || FREE STUFF || FREE PPT Template");
 		chat_pop_up();
 		Thread.sleep(1500);
 		err_page();
 	    
 	}
 
-	@Then("^View All Business Slides Page\\.$")
-	public void view_All_Business_Slides_Page() throws Throwable {
+	@Then("^Free Editable PPT\\.$")
+	public void Free_Ediatble_PPT() throws Throwable {
 		
-		WebElement footer_2_1= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@href='/powerpoint-presentation-essentials.html'][contains(.,'View all')]")));
+		WebElement footer_free_Ediatble_PPT= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[1]/ul/li[4]/a")));
 		Thread.sleep(3000);
 		clear_cache();
-		js.executeScript("arguments[0].scrollIntoView();",footer_2_1);
-		footer_2_1.click();
-		log.info("FOOTER --> 2 || BUSINESS SLIDES || VIEW ALL");
+		js.executeScript("arguments[0].scrollIntoView();",footer_free_Ediatble_PPT);
+		footer_free_Ediatble_PPT.click();
+		log.info("FOOTER --> 4 || FREE STUFF || FREE EDITABLE PPT");
 		chat_pop_up();
 		Thread.sleep(1500);
 		err_page();
 	    
 	}
 
-	@Then("^Arrows and Targets Flat Designs Page\\.$")
-	public void arrows_and_Targets_Flat_Designs_Page() throws Throwable {
+	@Then("^Free Google Slide\\.$")
+	public void Free_Google_Slide() throws Throwable {
 		
-		WebElement footer_3= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@href='/flat-design-diagrams/arrows-targets-flat-design.html'][contains(.,'Arrows and Targets')]")));
+		WebElement footer_Free_Google_Slide= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[1]/ul/li[5]/a")));
 		Thread.sleep(3000);
-		js.executeScript("arguments[0].scrollIntoView();",footer_3);
-		footer_3.click();
-		log.info("FOOTER --> 3 || FLAT DESIGNS || ARROWS AND TARGETS ");
+		js.executeScript("arguments[0].scrollIntoView();",footer_Free_Google_Slide);
+		footer_Free_Google_Slide.click();
+		log.info("FOOTER --> 5 || FREE STUFF || FREE GOOGLE SLIDE ");
 		chat_pop_up();
 		Thread.sleep(1500);
 		err_page();
 		
 	}
 
-	@Then("^View All Flat Designs Page\\.$")
-	public void view_All_Flat_Designs_Page() throws Throwable {
+	@Then("^Free Start Up Pitch\\.$")
+	public void Free_Start_UP_Pitch() throws Throwable {
 	    
-		WebElement footer_3_1= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@href='/flat-design-diagrams.html'][contains(.,'View all')]")));
+		WebElement footer_Free_Start_UP_Pitch= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[1]/ul/li[6]/a")));
 		Thread.sleep(3000);
-		js.executeScript("arguments[0].scrollIntoView();",footer_3_1);
-		footer_3_1.click();
-		log.info("FOOTER --> 3 || FLAT DESIGNS || VIEW ALL ");
+		js.executeScript("arguments[0].scrollIntoView();",footer_Free_Start_UP_Pitch);
+		footer_Free_Start_UP_Pitch.click();
+		log.info("FOOTER --> 6 || FREE STUFF || FREE START UP PITCH ");
 		chat_pop_up();
 		Thread.sleep(1500);
 		err_page();
 		
 	}
 
-	@Then("^Abstract Themes Page\\.$")
-	public void abstract_Themes_Page() throws Throwable {
+	@Then("^Free Timeline\\.$")
+	public void Free_Timeline() throws Throwable {
 	    
-		WebElement footer_4= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@href='/powerpoint-templates/abstract.html'][contains(.,'Abstract')]")));
+		WebElement footer_Free_Timeline= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[1]/ul/li[7]/a")));
 		Thread.sleep(3000);
-		js.executeScript("arguments[0].scrollIntoView();",footer_4);
-		footer_4.click();
-		log.info("FOOTER --> 4 || THEMES || ABSTRACT");
+		js.executeScript("arguments[0].scrollIntoView();",footer_Free_Timeline);
+		footer_Free_Timeline.click();
+		log.info("FOOTER --> 7 || FREE STUFF || FREE TIMELINE");
 		chat_pop_up();
 		Thread.sleep(1500);
 		err_page();
 		
 	}
 
-	@Then("^View All Themes Page\\.$")
-	public void view_All_Themes_Page() throws Throwable {
+	@Then("^Free Investor Pitch\\.$")
+	public void Free_Investor_Pitch() throws Throwable {
 		
-		WebElement footer_4_1= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@href='/powerpoint-templates.html'][contains(.,'View all')]")));
+		WebElement footer_Free_Investor_Pitch= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[1]/ul/li[8]/a")));
 		Thread.sleep(3000);
-		js.executeScript("arguments[0].scrollIntoView();",footer_4_1);
-		footer_4_1.click();
-		log.info("FOOTER --> 4 || THEMES || VIEW ALL");
-		chat_pop_up();
-		Thread.sleep(1500);
-		err_page();
-	    
-	}
-
-	@Then("^Abstract Icons Page\\.$")
-	public void abstract_Icons_Page() throws Throwable {
-		
-		WebElement footer_5= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@href='/powerpoint-images/abstract.html'][contains(.,'Abstract')]")));
-		Thread.sleep(3000);
-		js.executeScript("arguments[0].scrollIntoView();",footer_5);
-		footer_5.click();
-		log.info("FOOTER --> 5 || ICONS || ABSTRACT");
+		js.executeScript("arguments[0].scrollIntoView();",footer_Free_Investor_Pitch);
+		footer_Free_Investor_Pitch.click();
+		log.info("FOOTER --> 8 || FREE STUFF || FREE INVESTOR PITCH");
 		chat_pop_up();
 		Thread.sleep(1500);
 		err_page();
 	    
 	}
+			 
+	@Then("^Free Sales and Mktg\\.$")
+	public void Free_Sales_and_Mktg() throws Throwable {
+		
+		WebElement footer_Free_Sales_and_Mktg= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[1]/ul/li[9]/a")));
+		Thread.sleep(3000);
+		js.executeScript("arguments[0].scrollIntoView();",footer_Free_Sales_and_Mktg);
+		footer_Free_Sales_and_Mktg.click();
+		log.info("FOOTER --> 9 || FREE STUFF || FREE SALES AND MKTG");
+		chat_pop_up();
+		Thread.sleep(1500);
+		err_page();
+	    
+	}
+			 
 
-	@Then("^View All Icons Page\\.$")
-	public void view_All_Icons_Page() throws Throwable {
+	@Then("^Free Template\\.$")
+	public void Free_Template() throws Throwable {
+		
+		WebElement footer_Free_Template= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[1]/ul/li[10]/a")));
+		Thread.sleep(3000);
+		js.executeScript("arguments[0].scrollIntoView();",footer_Free_Template);
+		footer_Free_Template.click();
+		log.info("FOOTER --> 10 || FREE STUFF || FREE TEMPLATE");
+		chat_pop_up();
+		Thread.sleep(1500);
+		err_page();
+	    
+	}
+
+	@Then("^Free Slides\\.$")
+	public void Free_Slides() throws Throwable {
 		
 		
-		  WebElement footer_5_1= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@href='/powerpoint-images.html'][contains(.,'View all')]")));
+		  WebElement footer_Free_Slides= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[1]/ul/li[11]/a")));
 		  Thread.sleep(3000); 
-		js.executeScript("arguments[0].scrollIntoView();",footer_5_1);
-		  footer_5_1.click();
-		  log.info("FOOTER --> 5 || ICONS || VIEW ALL"); 
+		js.executeScript("arguments[0].scrollIntoView();",footer_Free_Slides);
+		  footer_Free_Slides.click();
+		  log.info("FOOTER --> 11 || FREE STUFF || FREE SLIDES"); 
 		  chat_pop_up();
 		  Thread.sleep(1500); 
 		  err_page();
-		 
-		
-		/*
-		 * driver.get("https://www.slideteam.net/waejhcdl"); Thread.sleep(2000);
-		 * err_page();
-		 */
 	   
 	}
+			 
+	@Then("^Free Business Plan\\.$")
+	public void Free_Business_Plan() throws Throwable {
+		
+		
+		  WebElement footer_Free_Business_Plan= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[1]/ul/li[12]/a")));
+		  Thread.sleep(3000); 
+		js.executeScript("arguments[0].scrollIntoView();",footer_Free_Business_Plan);
+		  footer_Free_Business_Plan.click();
+		  log.info("FOOTER --> 12 || FREE STUFF || FREE BUSINESS PLAN"); 
+		  chat_pop_up();
+		  Thread.sleep(1500); 
+		  err_page();
+	   
+	}
+			 
+	@Then("^View All\\.$")
+	public void View_All() throws Throwable {
+		
+		
+		  WebElement Footer_View_All_1= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[1]/ul/li[13]/a")));
+		  Thread.sleep(3000); 
+		js.executeScript("arguments[0].scrollIntoView();",Footer_View_All_1);
+		  Footer_View_All_1.click();
+		  log.info("FOOTER --> 13 || FREE STUFF || View All"); 
+		  chat_pop_up();
+		  Thread.sleep(1500); 
+		  err_page();
+	   
+	}
+	
+	
 
 
 
