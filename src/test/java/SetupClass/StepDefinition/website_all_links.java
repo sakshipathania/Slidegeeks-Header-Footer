@@ -107,7 +107,7 @@ public class website_all_links extends Setup {
         }
 	
 	@Then("^Pricing Page\\.$")
-	public void pricing_Page() throws Throwable {
+	public void Pricing_Page() throws Throwable {
 	    
 		WebElement price = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='menu-link'][contains(.,'Pricing')]")));
 		clear_cache();
@@ -270,7 +270,7 @@ public class website_all_links extends Setup {
 	}
 
 	@Then("^Privacy Policy Page\\.$")
-	public void privacy_Policy_Page() throws Throwable {
+	public void Privacy_Policy_Page() throws Throwable {
 		WebElement p_policy_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Privacy Policy'][contains(.,'Privacy Policy')]")));
 		clear_cache();
 		js.executeScript("arguments[0].scrollIntoView();",p_policy_footer);
@@ -283,7 +283,7 @@ public class website_all_links extends Setup {
 	}
 
 	@Then("^Popular Free Slides Page\\.$")
-	public void popular_Free_Slides_Page() throws Throwable {
+	public void Popular_Free_Slides_Page() throws Throwable {
 		WebElement popular_free_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Popular Free Slides'][contains(.,'Popular Free Slides')]")));
 		Thread.sleep(3000);
 		clear_cache();
@@ -310,7 +310,7 @@ public class website_all_links extends Setup {
 
 
 	@Then("^Research Services Page\\.$")
-	public void research_Services_Page() throws Throwable {
+	public void Research_Services_Page() throws Throwable {
 		WebElement rs_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Research Services'][contains(.,'Research Services')]")));
 		Thread.sleep(3000);
 		clear_cache();
