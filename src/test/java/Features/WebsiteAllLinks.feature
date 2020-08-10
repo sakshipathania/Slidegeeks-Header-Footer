@@ -29,7 +29,7 @@ Scenario Outline: Footer Quick Links.
 	Then Research Services Page.
 	Then Resume Services Page.
 	Then Google Slides Page.
-	The Coupon Code.
+	Then Coupon Code.
 	Then Newly Added.
 	Given user is already on Website Footer.
 	Then Free Business PPT.
