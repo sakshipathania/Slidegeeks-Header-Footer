@@ -356,7 +356,7 @@ public class website_all_links extends Setup {
 		clear_cache();
 		js.executeScript("arguments[0].scrollIntoView();",CC_footer);
 		CC_footer.click();
-		log.info("FOOTER --> COUPON CODE);
+		log.info("FOOTER --> COUPON CODE");
 		Thread.sleep(3000);
 		chat_pop_up();
 		err_page();
