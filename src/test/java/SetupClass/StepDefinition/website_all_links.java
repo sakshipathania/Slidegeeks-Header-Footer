@@ -27,6 +27,7 @@ public class website_all_links extends Setup {
 		Thread.sleep(4200);
 		log.info("DELETE COOKIES");
 	}
+	
 	public void err_page() throws InterruptedException
 	{
 		
@@ -353,8 +354,8 @@ public class website_all_links extends Setup {
 		WebElement CC_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Google Slides'][contains(.,'Google Slides')]")));
 		Thread.sleep(3000);
 		clear_cache();
-		js.executeScript("arguments[0].scrollIntoView();",CC_slide_footer);
-		CC_slide_footer.click();
+		js.executeScript("arguments[0].scrollIntoView();",CC_footer);
+		CC_footer.click();
 		log.info("FOOTER --> COUPON CODE);
 		Thread.sleep(3000);
 		chat_pop_up();
