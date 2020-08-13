@@ -16,7 +16,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import gherkin.lexer.Th;
 
-public class website_all_links extends Setup {
+public class Footer extends Setup {
 	
 	WebDriverWait wait = new WebDriverWait(driver,50);
 	JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -295,6 +295,6 @@ public class website_all_links extends Setup {
 		  chat_pop_up();
 		  Thread.sleep(1500); 
 		  err_page();
-	   
+	}
 	}
 	
