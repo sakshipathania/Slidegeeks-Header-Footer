@@ -7,7 +7,7 @@ Scenario:
 	Given Open the Website URL.
 	Then user enter email and password epu
 	Then Pricing Page.
-	Then Free PPTs Page
+	Then Free PPTs Page.
 	Then Popular PPT Page.
 	Then Template Finder Page.
 	Then Check Ebooks Page.
