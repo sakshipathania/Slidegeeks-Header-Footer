@@ -124,11 +124,11 @@ public class website_all_links extends Setup {
 	@Then("^Free PPTs Page\\.$")
 	public void Free_PPTs_Page() throws Throwable {
 	    
-		WebElement free_ppt = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("body > div.page-wrapper > header > div.header.content > div.panel.wrapper > div > nav > div > div > ul > li:nth-child(2) > a")));
+		WebElement free_ppt = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='menu-link'][contains(.,'Free PPTs')]")));
 		clear_cache();
 		Thread.sleep(3000);
 		free_ppt.click();
-		log.info("FREE PPT");
+		log.info("FREE PPTs");
 		Thread.sleep(3000);
 		chat_pop_up();
 		err_page();
