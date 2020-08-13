@@ -128,7 +128,7 @@ public class website_all_links extends Setup {
 		clear_cache();
 		Thread.sleep(3000);
 		free_ppt.click();
-		log.info("FREE PPTs");
+		log.info("FREE PPT");
 		Thread.sleep(3000);
 		chat_pop_up();
 		err_page();
