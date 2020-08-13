@@ -1,5 +1,5 @@
 @Footer
-Scenario: Footer
+Feature: Footer
 Given user is already on Website Footer.
 	Then Free Business PPT.
 	Then Free PPTs.
