@@ -72,7 +72,7 @@ public class Footer extends Setup {
 	}
   
   
-  @Given("^Open the Website URL\\.$")
+  @Given("^Open the Website URL1\\.$")
 	public void open_the_Website_URL1() throws InterruptedException {
 		
 		driver.get(AppURL);
