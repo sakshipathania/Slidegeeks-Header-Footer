@@ -1,7 +1,7 @@
 @Footer
 Feature: Footer
-Given Open the Website URL1
-Then user enter email and password.
+        Given Open the Website URL1.
+        Then user enter email and password
 	Then Free Business PPT.
 	Then Free PPTs.
 	Then Free PPT template.
