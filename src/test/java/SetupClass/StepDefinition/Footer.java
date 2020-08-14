@@ -243,5 +243,22 @@ public class Footer extends Setup {
 	   
 	}
 	
+	// Popular PPts
+	
+	@Then("^Action Plan Template\\.$")
+	public void Action_Plan_Template() throws Throwable {
+		
+		
+		  WebElement footer_10= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[3]/ul/li[1]/a")));
+		  Thread.sleep(3000); 
+		js.executeScript("arguments[0].scrollIntoView();",footer_10);
+		  footer_10.click();
+		  log.info("FOOTER --> 12 || FREE STUFF || ACTION PLAN TEMPLATE"); 
+		  chat_pop_up();
+		  Thread.sleep(1500); 
+		  err_page();
+	   
+	}
+	
 	}
 	
