@@ -12,4 +12,5 @@ Scenario:
 	Then Free Template.
 	Then Free Business Plan.
         Then View All.
+	Then Action Plan Template.
 	
