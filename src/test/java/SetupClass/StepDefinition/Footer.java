@@ -222,7 +222,7 @@ public class Footer extends Setup {
 		  Thread.sleep(3000); 
 		js.executeScript("arguments[0].scrollIntoView();",footer_8);
 		  footer_8.click();
-		  log.info("FOOTER --> 12 || FREE STUFF || FREE BUSINESS PLAN"); 
+		  log.info("FOOTER --> 11 || FREE STUFF || FREE BUSINESS PLAN"); 
 		  chat_pop_up();
 		  Thread.sleep(1500); 
 		  err_page();
@@ -253,7 +253,112 @@ public class Footer extends Setup {
 		  Thread.sleep(3000); 
 		js.executeScript("arguments[0].scrollIntoView();",footer_10);
 		  footer_10.click();
-		  log.info("FOOTER --> 12 || FREE STUFF || ACTION PLAN TEMPLATE"); 
+		  log.info("FOOTER --> 13 || POPULAR PPT || ACTION PLAN TEMPLATE"); 
+		  chat_pop_up();
+		  Thread.sleep(1500); 
+		  err_page();
+	   
+	}
+	
+	@Then("^Biz Model Canvas\\.$")
+	public void Biz_Model_Canvas() throws Throwable {
+		
+		
+		  WebElement footer_11= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[3]/ul/li[3]/a")));
+		  Thread.sleep(3000); 
+		js.executeScript("arguments[0].scrollIntoView();",footer_11);
+		  footer_11.click();
+		  log.info("FOOTER --> 14 || POPULAR PPT || BIZ MODEL CANVAS"); 
+		  chat_pop_up();
+		  Thread.sleep(1500); 
+		  err_page();
+	   
+	}
+	
+	@Then("^Certificate PPT\\.$")
+	public void Certificate_PPT() throws Throwable {
+		
+		
+		  WebElement footer_12= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[3]/ul/li[5]/a")));
+		  Thread.sleep(3000); 
+		js.executeScript("arguments[0].scrollIntoView();",footer_12);
+		  footer_12.click();
+		  log.info("FOOTER --> 15 || POPULAR PPT || CERTIFICATE PPT"); 
+		  chat_pop_up();
+		  Thread.sleep(1500); 
+		  err_page();
+	   
+	}
+	
+	@Then("^Change Management\\.$")
+	public void Change_Management() throws Throwable {
+		
+		
+		  WebElement footer_13= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[3]/ul/li[7]/a")));
+		  Thread.sleep(3000); 
+		js.executeScript("arguments[0].scrollIntoView();",footer_13);
+		  footer_13.click();
+		  log.info("FOOTER --> 16 || POPULAR PPT || CERTIFICATE PPT"); 
+		  chat_pop_up();
+		  Thread.sleep(1500); 
+		  err_page();
+	   
+	}
+	
+	@Then("^Company Powerpoint\\.$")
+	public void Company_Powerpoint() throws Throwable {
+		
+		
+		  WebElement footer_14= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[3]/ul/li[9]/a")));
+		  Thread.sleep(3000); 
+		js.executeScript("arguments[0].scrollIntoView();",footer_14);
+		  footer_14.click();
+		  log.info("FOOTER --> 17 || POPULAR PPT || COMPANY POWERPOINT"); 
+		  chat_pop_up();
+		  Thread.sleep(1500); 
+		  err_page();
+	   
+	}
+	
+	@Then("^Competitor landscape\\.$")
+	public void Competitor_landscape() throws Throwable {
+		
+		
+		  WebElement footer_15= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[3]/ul/li[11]/a")));
+		  Thread.sleep(3000); 
+		js.executeScript("arguments[0].scrollIntoView();",footer_15);
+		  footer_15.click();
+		  log.info("FOOTER --> 18 || POPULAR PPT || COMPETITOR LANDSCAPE"); 
+		  chat_pop_up();
+		  Thread.sleep(1500); 
+		  err_page();
+	   
+	}
+	
+	@Then("^Current State PPT\\.$")
+	public void Current_State_PPT() throws Throwable {
+		
+		
+		  WebElement footer_16= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[4]/ul/li[1]/a")));
+		  Thread.sleep(3000); 
+		js.executeScript("arguments[0].scrollIntoView();",footer_16);
+		  footer_16.click();
+		  log.info("FOOTER --> 19 || POPULAR PPT || CURRENT STATE PPT"); 
+		  chat_pop_up();
+		  Thread.sleep(1500); 
+		  err_page();
+	   
+	}
+	
+	@Then("^Cybersecurity PPT\\.$")
+	public void Cybersecurity_PPT() throws Throwable {
+		
+		
+		  WebElement footer_17= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[4]/ul/li[1]/a")));
+		  Thread.sleep(3000); 
+		js.executeScript("arguments[0].scrollIntoView();",footer_17);
+		  footer_17.click();
+		  log.info("FOOTER --> 20 || POPULAR PPT || CYBERSECURITY PPT"); 
 		  chat_pop_up();
 		  Thread.sleep(1500); 
 		  err_page();
