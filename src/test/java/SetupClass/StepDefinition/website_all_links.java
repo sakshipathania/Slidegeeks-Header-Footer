@@ -331,6 +331,8 @@ public class website_all_links extends Setup {
 		js.executeScript("arguments[0].scrollIntoView();",Resume_footer);
 		Resume_footer.click();
 		log.info("FOOTER --> RESUME SERVICES");
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("/html/body/div[5]/div/div[2]/div/div/div/div/div[2]/div/a")).click();
 		Thread.sleep(3000);
 		chat_pop_up();
 		err_page();
