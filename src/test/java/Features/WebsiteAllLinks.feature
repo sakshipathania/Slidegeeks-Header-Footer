@@ -26,7 +26,11 @@ Scenario:
 	Then Google Slides Page.
 	Then Coupon Code.
 	Then Newly Added.
-	
+	Then Color PPT.
+	Then Google Powerpoint.
+	Then Highlight Picture PPT.
+	Then PPT Zoom Image.
+	Then PPT Puzzle Pieces.
 	
 
 
