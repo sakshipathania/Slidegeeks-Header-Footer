@@ -331,9 +331,8 @@ public class website_all_links extends Setup {
 		js.executeScript("arguments[0].scrollIntoView();",Resume_footer);
 		Resume_footer.click();
 		log.info("FOOTER --> RESUME SERVICES");
-		Thread.sleep(10000);
-		WebElement Resume_footer1= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Custom Resume Builder'][contains(.,'Contact&nbsp;Us')]")));
-		Resume_footer1.click();
+		Thread.sleep(2000);
+		drier.get("https://www.slideteam.net/");
 		Thread.sleep(3000);
 		chat_pop_up();
 		err_page();
