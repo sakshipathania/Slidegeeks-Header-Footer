@@ -332,7 +332,7 @@ public class website_all_links extends Setup {
 		Resume_footer.click();
 		log.info("FOOTER --> RESUME SERVICES");
 		Thread.sleep(2000);
-		drier.get("https://www.slideteam.net/");
+		driver.get("https://www.slideteam.net/");
 		Thread.sleep(3000);
 		chat_pop_up();
 		err_page();
