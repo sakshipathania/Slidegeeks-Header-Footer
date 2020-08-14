@@ -13,4 +13,10 @@ Scenario:
 	Then Free Business Plan.
         Then View All.
 	Then Action Plan Template.
-	
+	Then Biz Model Canvas.
+	Then Certificate PPT.
+	Then Change Management.
+	Then Company Powerpoint.
+	Then Competitor landscape.
+	Then Current State PPT.
+	Then Cybersecurity PPT.
