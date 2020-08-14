@@ -332,7 +332,8 @@ public class website_all_links extends Setup {
 		Resume_footer.click();
 		log.info("FOOTER --> RESUME SERVICES");
 		Thread.sleep(2000);
-		driver.findElement(By.xpath("/html/body/div[5]/div/div[2]/div/div/div/div/div[2]/div/a")).click();
+		WebElement Resume_footer1= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Custom Resume Builder'][contains(.,'Contact&nbsp;Us')]")));
+		Resume_footer1.click();
 		Thread.sleep(3000);
 		chat_pop_up();
 		err_page();
