@@ -127,11 +127,11 @@ public class Footer extends Setup {
 	@Then("^Free PPT template\\.$")
 	public void Free_PPT_template() throws Throwable {
 		
-		WebElement footer_Free_PPT_template= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//li[@class='first'][contains(.,'Free PPT template')]")));
+		WebElement footer_2= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//li[@class='first'][contains(.,'Free PPT template')]")));
 		Thread.sleep(3000);
 		clear_cache();
-		js.executeScript("arguments[0].scrollIntoView();",footer_Free_PPT_template);
-		footer_Free_PPT_template.click();
+		js.executeScript("arguments[0].scrollIntoView();",footer_2);
+		footer_2.click();
 		log.info("FOOTER --> 3 || FREE STUFF || FREE PPT Template");
 		chat_pop_up();
 		Thread.sleep(1500);
@@ -142,11 +142,11 @@ public class Footer extends Setup {
 	@Then("^Free Editable PPT\\.$")
 	public void Free_Ediatble_PPT() throws Throwable {
 		
-		WebElement footer_free_Ediatble_PPT= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//li[@class='first'][contains(.,'Free Editable PPT')]")));
+		WebElement footer_3= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//li[@class='first'][contains(.,'Free Editable PPT')]")));
 		Thread.sleep(3000);
 		clear_cache();
-		js.executeScript("arguments[0].scrollIntoView();",footer_free_Ediatble_PPT);
-		footer_free_Ediatble_PPT.click();
+		js.executeScript("arguments[0].scrollIntoView();",footer_3);
+		footer_3.click();
 		log.info("FOOTER --> 4 || FREE STUFF || FREE EDITABLE PPT");
 		chat_pop_up();
 		Thread.sleep(1500);
@@ -157,10 +157,10 @@ public class Footer extends Setup {
 	@Then("^Free Google Slide\\.$")
 	public void Free_Google_Slide() throws Throwable {
 		
-		WebElement footer_Free_Google_Slide= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//li[@class='first'][contains(.,'Free Google Slide')]")));
+		WebElement footer_4= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//li[@class='first'][contains(.,'Free Google Slide')]")));
 		Thread.sleep(3000);
-		js.executeScript("arguments[0].scrollIntoView();",footer_Free_Google_Slide);
-		footer_Free_Google_Slide.click();
+		js.executeScript("arguments[0].scrollIntoView();",footer_4);
+		footer_4.click();
 		log.info("FOOTER --> 5 || FREE STUFF || FREE GOOGLE SLIDE ");
 		chat_pop_up();
 		Thread.sleep(1500);
@@ -172,10 +172,10 @@ public class Footer extends Setup {
 	@Then("^Free Timeline\\.$")
 	public void Free_Timeline() throws Throwable {
 	    
-		WebElement footer_Free_Timeline= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//li[@class='first'][contains(.,'Free Timeline')]")));
+		WebElement footer_5= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//li[@class='first'][contains(.,'Free Timeline')]")));
 		Thread.sleep(3000);
-		js.executeScript("arguments[0].scrollIntoView();",footer_Free_Timeline);
-		footer_Free_Timeline.click();
+		js.executeScript("arguments[0].scrollIntoView();",footer_5);
+		footer_5.click();
 		log.info("FOOTER --> 7 || FREE STUFF || FREE TIMELINE");
 		chat_pop_up();
 		Thread.sleep(1500);
@@ -186,10 +186,10 @@ public class Footer extends Setup {
 	@Then("^Free Investor Pitch\\.$")
 	public void Free_Investor_Pitch() throws Throwable {
 		
-		WebElement footer_Free_Investor_Pitch= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//li[@class='first'][contains(.,'Free Investor Pitch')]")));
+		WebElement footer_6= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//li[@class='first'][contains(.,'Free Investor Pitch')]")));
 		Thread.sleep(3000);
-		js.executeScript("arguments[0].scrollIntoView();",footer_Free_Investor_Pitch);
-		footer_Free_Investor_Pitch.click();
+		js.executeScript("arguments[0].scrollIntoView();",footer_6);
+		footer_6.click();
 		log.info("FOOTER --> 8 || FREE STUFF || FREE INVESTOR PITCH");
 		chat_pop_up();
 		Thread.sleep(1500);
@@ -202,10 +202,10 @@ public class Footer extends Setup {
 	@Then("^Free Template\\.$")
 	public void Free_Template() throws Throwable {
 		
-		WebElement footer_Free_Template= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//li[@class='first'][contains(.,'Free Template')]")));
+		WebElement footer_7= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//li[@class='first'][contains(.,'Free Template')]")));
 		Thread.sleep(3000);
-		js.executeScript("arguments[0].scrollIntoView();",footer_Free_Template);
-		footer_Free_Template.click();
+		js.executeScript("arguments[0].scrollIntoView();",footer_7);
+		footer_7.click();
 		log.info("FOOTER --> 10 || FREE STUFF || FREE TEMPLATE");
 		chat_pop_up();
 		Thread.sleep(1500);
@@ -218,10 +218,10 @@ public class Footer extends Setup {
 	public void Free_Business_Plan() throws Throwable {
 		
 		
-		  WebElement footer_Free_Business_Plan= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//li[@class='first'][contains(.,'Free Business Plan')]")));
+		  WebElement footer_8= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//li[@class='first'][contains(.,'Free Business Plan')]")));
 		  Thread.sleep(3000); 
-		js.executeScript("arguments[0].scrollIntoView();",footer_Free_Business_Plan);
-		  footer_Free_Business_Plan.click();
+		js.executeScript("arguments[0].scrollIntoView();",footer_8);
+		  footer_8.click();
 		  log.info("FOOTER --> 12 || FREE STUFF || FREE BUSINESS PLAN"); 
 		  chat_pop_up();
 		  Thread.sleep(1500); 
@@ -229,18 +229,6 @@ public class Footer extends Setup {
 	   
 	}
 			 
-	@Then("^View All\\.$")
-	public void View_All() throws Throwable {
-		
-		
-		  WebElement Footer_View_All_1= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//li[@class='last'][contains(.,'View All')]")));
-		  Thread.sleep(3000); 
-		js.executeScript("arguments[0].scrollIntoView();",Footer_View_All_1);
-		  Footer_View_All_1.click();
-		  log.info("FOOTER --> 13 || FREE STUFF || View All"); 
-		  chat_pop_up();
-		  Thread.sleep(1500); 
-		  err_page();
-	}
+	
 	}
 	
