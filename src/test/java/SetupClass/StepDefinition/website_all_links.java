@@ -298,7 +298,7 @@ public class website_all_links extends Setup {
 	
 	@Then("^Custom Design Services Page\\.$")
 	public void Custom_Design_Services_Page() throws Throwable {
-		WebElement cds_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Business Slide'][contains(.,'Custom Design Services')]")));
+		WebElement cds_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Business Slides'][contains(.,'Custom Design Services')]")));
 		Thread.sleep(3000);
 		clear_cache();
 		js.executeScript("arguments[0].scrollIntoView();",cds_footer);
