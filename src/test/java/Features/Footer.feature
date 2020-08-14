@@ -11,5 +11,5 @@ Scenario:
 	Then Free Investor Pitch.
 	Then Free Template.
 	Then Free Business Plan.
-	Then View All.
+
 	
