@@ -126,7 +126,7 @@ public class Footer extends Setup {
 	@Then("^Free PPTs\\.$")
 	public void Free_PPTs() throws Throwable {
 		
-		WebElement footer_Free_PPT= wait.until(ExpectedConditions.elementToBeClickable(By.xpath(""//li[@class='first'][contains(.,'Free PPT')]"")));
+		WebElement footer_Free_PPT= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//li[@class='first'][contains(.,'Free PPT')]")));
 		Thread.sleep(3000);
 		clear_cache();
 		js.executeScript("arguments[0].scrollIntoView();",footer_Free_PPT);
