@@ -285,7 +285,7 @@ public class website_all_links extends Setup {
 
 	@Then("^Popular Free Slides Page\\.$")
 	public void Popular_Free_Slides_Page() throws Throwable {
-		WebElement popular_free_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Popular Free Slides'][contains(.,'Popular Free Slides')]")));
+		WebElement popular_free_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[6]/ul/li[7]/a")));
 		Thread.sleep(3000);
 		clear_cache();
 		js.executeScript("arguments[0].scrollIntoView();",popular_free_footer);
@@ -298,7 +298,7 @@ public class website_all_links extends Setup {
 	
 	@Then("^Custom Design Services Page\\.$")
 	public void Custom_Design_Services_Page() throws Throwable {
-		WebElement cds_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Research Services'][contains(.,'Custom Design Services')]")));
+		WebElement cds_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Business Slide'][contains(.,'Custom Design Services')]")));
 		Thread.sleep(3000);
 		clear_cache();
 		js.executeScript("arguments[0].scrollIntoView();",cds_footer);
@@ -325,7 +325,7 @@ public class website_all_links extends Setup {
 	
 	@Then("^Resume Services Page\\.$")
 	public void Resume_Services_Page() throws Throwable {
-		WebElement Resume_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Research Services'][contains(.,'Resume Services')]")));
+		WebElement Resume_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Resume Services'][contains(.,'Resume Services')]")));
 		Thread.sleep(3000);
 		clear_cache();
 		js.executeScript("arguments[0].scrollIntoView();",Resume_footer);
@@ -351,7 +351,7 @@ public class website_all_links extends Setup {
 	
 		@Then("^Coupon Code\\.$")
 	public void Coupon_Code() throws Throwable {
-		WebElement CC_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Google Slides'][contains(.,'Coupon Code')]")));
+		WebElement CC_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Coupon Code'][contains(.,'Coupon Code')]")));
 		Thread.sleep(3000);
 		clear_cache();
 		js.executeScript("arguments[0].scrollIntoView();",CC_footer);
@@ -364,7 +364,7 @@ public class website_all_links extends Setup {
 	
 		@Then("^Newly Added\\.$")
 	public void Newly_Added() throws Throwable {
-		WebElement nd_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Google Slides'][contains(.,'Newly Added')]")));
+		WebElement nd_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Newly Added'][contains(.,'Newly Added')]")));
 		Thread.sleep(3000);
 		clear_cache();
 		js.executeScript("arguments[0].scrollIntoView();",nd_footer);
