@@ -382,7 +382,7 @@ public class Footer extends Setup {
 	
 	
 	@Then("Food Powerpoint\\.$")
-	public void Food_Powerpoint() throws Throuable {
+	public void Food_Powerpoint() throws InterruptedException {
 		
 		 WebElement footer_19= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[4]/ul/li[6]/a")));
 		  Thread.sleep(3000); 
@@ -396,7 +396,7 @@ public class Footer extends Setup {
 	}
 	
 	@Then("Happy Birthday PPT\\.$")
-	public void Happy_Birthday_PPT() throws Throuable {
+	public void Happy_Birthday_PPT() throws InterruptedException {
 		
 		 WebElement footer_21= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[4]/ul/li[7]/a")));
 		  Thread.sleep(3000); 
@@ -410,7 +410,7 @@ public class Footer extends Setup {
 	}
 	
 	@Then("HR Management PPT\\.$")
-	public void HR_Management_PPT() throws Throuable {
+	public void HR_Management_PPT() throws InterruptedException {
 		
 		 WebElement footer_22= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[4]/ul/li[9]/a")));
 		  Thread.sleep(3000); 
@@ -424,7 +424,7 @@ public class Footer extends Setup {
 	}
 	
 	@Then("Introduce Yourself\\.$")
-	public void Introduce_Yourself() throws Throuable {
+	public void Introduce_Yourself() throws InterruptedException {
 		
 		 WebElement footer_23= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[4]/ul/li[11]/a")));
 		  Thread.sleep(3000); 
@@ -439,7 +439,7 @@ public class Footer extends Setup {
 	
 	
 	@Then("View All 1\\.$")
-	public void View_All_1() throws Throuable {
+	public void View_All_1() throws InterruptedException {
 		
 		 WebElement footer_24= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[4]/ul/li[13]")));
 		  Thread.sleep(3000); 
