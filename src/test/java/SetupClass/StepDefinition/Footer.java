@@ -279,7 +279,7 @@ public class Footer extends Setup {
 	public void Certificate_PPT() throws Throwable {
 		
 		
-		  WebElement footer_12= wait.until(ExpectedConditions.elementToBeClickable(By.csselector("body > div.page-wrapper > footer > div > div > div.footer-outer > div > div:nth-child(3) > ul > li:nth-child(5) > a")));
+		  WebElement footer_12= wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("body > div.page-wrapper > footer > div > div > div.footer-outer > div > div:nth-child(3) > ul > li:nth-child(5) > a")));
 		  Thread.sleep(3000); 
 		js.executeScript("arguments[0].scrollIntoView();",footer_12);
 		  footer_12.click();
