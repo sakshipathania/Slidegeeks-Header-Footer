@@ -20,3 +20,10 @@ Scenario:
 	Then Competitor landscape.
 	Then Current State PPT.
 	Then Cybersecurity PPT.
+	Then Disaster Mgmt ppt.
+	Then Food Powerpoint.
+	Then Happy Birthday PPT.
+	Then HR Management PPT.
+	Then Introduce Yourself.
+	Then View All 1.
+	
