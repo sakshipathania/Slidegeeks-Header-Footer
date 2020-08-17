@@ -354,7 +354,7 @@ public class Footer extends Setup {
 	public void Cybersecurity_PPT() throws Throwable {
 		
 		
-		  WebElement footer_17= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[4]/ul/li[1]/a")));
+		  WebElement footer_17= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[4]/ul/li[3]/a")));
 		  Thread.sleep(3000); 
 		js.executeScript("arguments[0].scrollIntoView();",footer_17);
 		  footer_17.click();
@@ -369,7 +369,7 @@ public class Footer extends Setup {
 	public void Disaster_Mgmt_ppt() throws Throwable {
 		
 		
-		  WebElement footer_18= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[4]/ul/li[1]/a")));
+		  WebElement footer_18= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[4]/ul/li[5]/a")));
 		  Thread.sleep(3000); 
 		js.executeScript("arguments[0].scrollIntoView();",footer_18);
 		  footer_18.click();
@@ -380,29 +380,15 @@ public class Footer extends Setup {
 	   
 	}
 	
-	@Then("^Disaster Mgmt ppt\\.$")
-	public void Disaster_Mgmt_ppt() throws Throwable {
-		
-		
-		  WebElement footer_19= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[4]/ul/li[5]/a")));
-		  Thread.sleep(3000); 
-		js.executeScript("arguments[0].scrollIntoView();",footer_19);
-		  footer_19.click();
-		  log.info("FOOTER --> 21 || POPULAR PPT || DISASTER MGMT PPT"); 
-		  chat_pop_up();
-		  Thread.sleep(1500); 
-		  err_page();
-	   
-	}
 	
 	@Then("Food Powerpoint\\.$")
 	public void Food_Powerpoint() throws Throuable {
 		
-		 WebElement footer_20= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[4]/ul/li[6]/a")));
+		 WebElement footer_19= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[4]/ul/li[6]/a")));
 		  Thread.sleep(3000); 
-		js.executeScript("arguments[0].scrollIntoView();",footer_20);
-		  footer_20.click();
-		  log.info("FOOTER --> 22 || POPULAR PPT || DISASTER MGMT PPT"); 
+		js.executeScript("arguments[0].scrollIntoView();",footer_19);
+		  footer_19.click();
+		  log.info("FOOTER --> 22 || POPULAR PPT || FOOD POWERPOINT"); 
 		  chat_pop_up();
 		  Thread.sleep(1500); 
 		  err_page();
