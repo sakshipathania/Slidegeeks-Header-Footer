@@ -365,5 +365,108 @@ public class Footer extends Setup {
 	   
 	}
 	
+	@Then("^Disaster Mgmt ppt\\.$")
+	public void Disaster_Mgmt_ppt() throws Throwable {
+		
+		
+		  WebElement footer_18= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[4]/ul/li[1]/a")));
+		  Thread.sleep(3000); 
+		js.executeScript("arguments[0].scrollIntoView();",footer_18);
+		  footer_18.click();
+		  log.info("FOOTER --> 21 || POPULAR PPT || DISASTER MGMT PPT"); 
+		  chat_pop_up();
+		  Thread.sleep(1500); 
+		  err_page();
+	   
+	}
+	
+	@Then("^Disaster Mgmt ppt\\.$")
+	public void Disaster_Mgmt_ppt() throws Throwable {
+		
+		
+		  WebElement footer_19= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[4]/ul/li[5]/a")));
+		  Thread.sleep(3000); 
+		js.executeScript("arguments[0].scrollIntoView();",footer_19);
+		  footer_19.click();
+		  log.info("FOOTER --> 21 || POPULAR PPT || DISASTER MGMT PPT"); 
+		  chat_pop_up();
+		  Thread.sleep(1500); 
+		  err_page();
+	   
+	}
+	
+	@Then("Food Powerpoint\\.$")
+	public void Food_Powerpoint() throws Throuable {
+		
+		 WebElement footer_20= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[4]/ul/li[6]/a")));
+		  Thread.sleep(3000); 
+		js.executeScript("arguments[0].scrollIntoView();",footer_20);
+		  footer_20.click();
+		  log.info("FOOTER --> 22 || POPULAR PPT || DISASTER MGMT PPT"); 
+		  chat_pop_up();
+		  Thread.sleep(1500); 
+		  err_page();
+	   
+	}
+	
+	@Then("Happy Birthday PPT\\.$")
+	public void Happy_Birthday_PPT() throws Throuable {
+		
+		 WebElement footer_21= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[4]/ul/li[7]/a")));
+		  Thread.sleep(3000); 
+		js.executeScript("arguments[0].scrollIntoView();",footer_21);
+		  footer_21.click();
+		  log.info("FOOTER --> 23 || POPULAR PPT || HAPPY BIRTHDAY PPT"); 
+		  chat_pop_up();
+		  Thread.sleep(1500); 
+		  err_page();
+	   
+	}
+	
+	@Then("HR Management PPT\\.$")
+	public void HR_Management_PPT() throws Throuable {
+		
+		 WebElement footer_22= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[4]/ul/li[9]/a")));
+		  Thread.sleep(3000); 
+		js.executeScript("arguments[0].scrollIntoView();",footer_22);
+		  footer_22.click();
+		  log.info("FOOTER --> 24 || POPULAR PPT || HR MANAGEMENT PPT"); 
+		  chat_pop_up();
+		  Thread.sleep(1500); 
+		  err_page();
+	   
+	}
+	
+	@Then("Introduce Yourself\\.$")
+	public void Introduce_Yourself() throws Throuable {
+		
+		 WebElement footer_23= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[4]/ul/li[11]/a")));
+		  Thread.sleep(3000); 
+		js.executeScript("arguments[0].scrollIntoView();",footer_23);
+		  footer_23.click();
+		  log.info("FOOTER --> 25 || POPULAR PPT || INTRODUCE YOURSELF"); 
+		  chat_pop_up();
+		  Thread.sleep(1500); 
+		  err_page();
+	   
+	}
+	
+	
+	@Then("View All 1\\.$")
+	public void View_All_1() throws Throuable {
+		
+		 WebElement footer_24= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[4]/ul/li[13]")));
+		  Thread.sleep(3000); 
+		js.executeScript("arguments[0].scrollIntoView();",footer_24);
+		  footer_24.click();
+		  log.info("FOOTER --> 26 || POPULAR PPT || VIEW ALL"); 
+		  chat_pop_up();
+		  Thread.sleep(1500); 
+		  err_page();
+	   
+	}
+	
+	
+	
 	}
 	
