@@ -275,15 +275,15 @@ public class Footer extends Setup {
 	   
 	}
 	
-	@Then("^Certificate PPT\\.$")
-	public void Certificate_PPT() throws Throwable {
+	@Then("^Challenges Slide\\.$")
+	public void Challenges_Slide() throws Throwable {
 		
 		
-		  WebElement footer_12= wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("body > div.page-wrapper > footer > div > div > div.footer-outer > div > div:nth-child(3) > ul > li:nth-child(5) > a")));
+		  WebElement footer_12= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[3]/ul/li[6]/a")));
 		  Thread.sleep(3000); 
 		js.executeScript("arguments[0].scrollIntoView();",footer_12);
 		  footer_12.click();
-		  log.info("FOOTER --> 15 || POPULAR PPT || CERTIFICATE PPT"); 
+		  log.info("FOOTER --> 15 || POPULAR PPT || CHALLENGES SLIDE"); 
 		  chat_pop_up();
 		  Thread.sleep(1500); 
 		  err_page();
