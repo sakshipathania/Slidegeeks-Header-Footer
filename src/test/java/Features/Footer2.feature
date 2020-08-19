@@ -1,7 +1,7 @@
 @Footer2
 Feature: Footer2
 Scenario: 
-        Given Open the Website URL1.
+        Given Open the Website URL2.
         Then Company Powerpoint.
 	      Then Competitor landscape.
 	      Then Current State PPT.
