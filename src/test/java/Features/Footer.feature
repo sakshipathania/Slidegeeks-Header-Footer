@@ -27,4 +27,11 @@ Scenario:
 	Then HR Management PPT.
 	Then Introduce Yourself.
 	Then View All 1.
+	Then Master Thesis PPT.
+	Then Org Structure PPT.
+	Then PPT Table Design.
+	Then Sample PPT.
+	Then Swimlane Templates.
+	Then PPT Backgrounds.
+	Then View All 3.
 	
