@@ -279,10 +279,10 @@ public class Footer extends Setup {
 	public void Business_Case_PPT() throws Throwable {
 		
 		try {
-		WebElement footer_13= driver.findElement(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[3]/ul/li[4]/a"));
+		WebElement footer_12= driver.findElement(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[3]/ul/li[4]/a"));
 		Thread.sleep(3000);
 		js.executeScript("arguments[0].scrollIntoView();",footer_12);
-		  footer_13.click();
+		  footer_12.click();
 		  log.info("FOOTER --> 15 || POPULAR PPT || BUSINESS CASE PPT"); 
 		  chat_pop_up();
 		  Thread.sleep(1500); 
