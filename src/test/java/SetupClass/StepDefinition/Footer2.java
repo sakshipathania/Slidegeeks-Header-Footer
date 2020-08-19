@@ -18,7 +18,7 @@ import gherkin.lexer.Th;
 
 public class Footer2 extends Setup {
 	
-	WebDriverWait wait = new WebDriverWait(driver,50);
+	WebDriverWait wait = new WebDriverWait(driver,60);
 	JavascriptExecutor js = (JavascriptExecutor) driver;
 	
 	public void clear_cache() throws InterruptedException
