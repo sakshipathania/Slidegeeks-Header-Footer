@@ -463,7 +463,7 @@ public class Footer extends Setup {
 		  chat_pop_up();
 		  Thread.sleep(1500); 
 		  err_page();
-		} ctach(NoSuchElementException Iy) { }
+		} catch(NoSuchElementException Iy) { }
 	   
 	}
 	
