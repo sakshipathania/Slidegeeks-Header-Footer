@@ -277,6 +277,8 @@ public class Footer extends Setup {
 	
 	@Then("^Business Case PPT\\.$")
 	public void Business_Case_PPT() throws Throwable {
+		
+		try {
 		WebElement footer_13= driver.findElement(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[3]/ul/li[4]/a"));
 		Thread.sleep(3000);
 		js.executeScript("arguments[0].scrollIntoView();",footer_12);
@@ -285,11 +287,17 @@ public class Footer extends Setup {
 		  chat_pop_up();
 		  Thread.sleep(1500); 
 		  err_page();
+		}
+		catch (NoSuchElementException bc) {
+		}
 		
 	}
 	
 	@Then("^Challenges Slide\\.$")
+	
 	public void Challenges_Slide() throws Throwable {
+		
+		try {
 		WebElement footer_14= driver.findElement(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[3]/ul/li[6]/a"));
 		Thread.sleep(3000);
 		js.executeScript("arguments[0].scrollIntoView();",footer_14);
@@ -298,13 +306,15 @@ public class Footer extends Setup {
 		  chat_pop_up();
 		  Thread.sleep(1500); 
 		  err_page();
+		} catch (NoSuchElementException cs) {
+		}
 		
 	}
 	
 	@Then("^Change Management\\.$")
 	public void Change_Management() throws Throwable {
 		
-		
+		try {
 		  WebElement footer_15= driver.findElement(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[3]/ul/li[7]/a"));
 		  Thread.sleep(3000); 
 		js.executeScript("arguments[0].scrollIntoView();",footer_15);
@@ -313,13 +323,14 @@ public class Footer extends Setup {
 		  chat_pop_up();
 		  Thread.sleep(1500); 
 		  err_page();
-	   
+		}
+		catch(NoSuchElementException cm) { }
 	}
 	
 	@Then("^Company Powerpoint\\.$")
 	public void Company_Powerpoint() throws Throwable {
 		
-		
+		try {
 		  WebElement footer_16= driver.findElement(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[3]/ul/li[9]/a"));
 		  Thread.sleep(3000); 
 		js.executeScript("arguments[0].scrollIntoView();",footer_16);
@@ -328,13 +339,13 @@ public class Footer extends Setup {
 		  chat_pop_up();
 		  Thread.sleep(1500); 
 		  err_page();
-	   
+		} catch(NoSuchElementException cp) { }
 	}
 	
 	@Then("^Competitor landscape\\.$")
 	public void Competitor_landscape() throws Throwable {
 		
-		
+		try {
 		  WebElement footer_17=driver.findElement(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[3]/ul/li[11]/a"));
 		  Thread.sleep(3000); 
 		js.executeScript("arguments[0].scrollIntoView();",footer_17);
@@ -343,13 +354,14 @@ public class Footer extends Setup {
 		  chat_pop_up();
 		  Thread.sleep(1500); 
 		  err_page();
+		} catch (NoSuchElementException cl) { }
 	   
 	}
 	
 	@Then("^Current State PPT\\.$")
 	public void Current_State_PPT() throws Throwable {
 		
-		
+		try {
 		  WebElement footer_18= driver.findElement(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[4]/ul/li[1]/a"));
 		  Thread.sleep(3000); 
 		js.executeScript("arguments[0].scrollIntoView();",footer_18);
@@ -358,13 +370,14 @@ public class Footer extends Setup {
 		  chat_pop_up();
 		  Thread.sleep(1500); 
 		  err_page();
+		} catch(NoSuchElementException csp) { }
 	   
 	}
 	
 	@Then("^Cybersecurity PPT\\.$")
 	public void Cybersecurity_PPT() throws Throwable {
 		
-		
+		try {
 		  WebElement footer_19= driver.findElement(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[4]/ul/li[3]/a"));
 		  Thread.sleep(3000); 
 		js.executeScript("arguments[0].scrollIntoView();",footer_19);
@@ -373,13 +386,13 @@ public class Footer extends Setup {
 		  chat_pop_up();
 		  Thread.sleep(1500); 
 		  err_page();
-	   
+		} catch (NoSuchElementException ccp) { }
 	}
 	
 	@Then("^Disaster Mgmt ppt\\.$")
 	public void Disaster_Mgmt_ppt() throws Throwable {
 		
-		
+		try {
 		  WebElement footer_20= driver.findElement(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[4]/ul/li[5]/a"));
 		  Thread.sleep(3000); 
 		js.executeScript("arguments[0].scrollIntoView();",footer_20);
@@ -388,13 +401,14 @@ public class Footer extends Setup {
 		  chat_pop_up();
 		  Thread.sleep(1500); 
 		  err_page();
+			{ catch (NoSuchElementException dm) { }
 	   
 	}
 	
 	
 	@Then("Food Powerpoint\\.$")
 	public void Food_Powerpoint() throws InterruptedException {
-		
+		try {
 		 WebElement footer_21= driver.findElement(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[4]/ul/li[6]/a"));
 		  Thread.sleep(3000); 
 		js.executeScript("arguments[0].scrollIntoView();",footer_21);
@@ -403,12 +417,14 @@ public class Footer extends Setup {
 		  chat_pop_up();
 		  Thread.sleep(1500); 
 		  err_page();
+		} catch (NoSuchElementException fp) { }
 	   
 	}
 	
 	@Then("Happy Birthday PPT\\.$")
 	public void Happy_Birthday_PPT() throws InterruptedException {
 		
+		try {
 		 WebElement footer_22= driver.findElement(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[4]/ul/li[7]/a"));
 		  Thread.sleep(3000); 
 		js.executeScript("arguments[0].scrollIntoView();",footer_22);
@@ -417,12 +433,14 @@ public class Footer extends Setup {
 		  chat_pop_up();
 		  Thread.sleep(1500); 
 		  err_page();
+		} catch(NoSuchElementException Hbp) { }
 	   
 	}
 	
 	@Then("HR Management PPT\\.$")
 	public void HR_Management_PPT() throws InterruptedException {
 		
+		try {
 		 WebElement footer_23= driver.findElement(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[4]/ul/li[9]/a"));
 		  Thread.sleep(3000); 
 		js.executeScript("arguments[0].scrollIntoView();",footer_23);
@@ -431,12 +449,12 @@ public class Footer extends Setup {
 		  chat_pop_up();
 		  Thread.sleep(1500); 
 		  err_page();
-	   
+		} catch(NoSuchElementException hMp) { }
 	}
 	
 	@Then("Introduce Yourself\\.$")
 	public void Introduce_Yourself() throws InterruptedException {
-		
+		try {
 		 WebElement footer_24= driver.findElement(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[4]/ul/li[11]/a"));
 		  Thread.sleep(3000); 
 		js.executeScript("arguments[0].scrollIntoView();",footer_24);
@@ -445,6 +463,7 @@ public class Footer extends Setup {
 		  chat_pop_up();
 		  Thread.sleep(1500); 
 		  err_page();
+		} ctach(NoSuchElementException Iy) { }
 	   
 	}
 	
@@ -452,6 +471,7 @@ public class Footer extends Setup {
 	@Then("View All 1\\.$")
 	public void View_All_1() throws InterruptedException {
 		
+		try {
 		 WebElement footer_25= driver.findElement(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[4]/ul/li[13]"));
 		  Thread.sleep(3000); 
 		js.executeScript("arguments[0].scrollIntoView();",footer_25);
@@ -460,7 +480,7 @@ public class Footer extends Setup {
 		  chat_pop_up();
 		  Thread.sleep(1500); 
 		  err_page();
-	   
+		} catch(NoSuchElementException va) { }
 	}
 	
 	
