@@ -14,6 +14,8 @@ Scenario:
         Then View All.
 	Then Action Plan Template.
 	Then Biz Model Canvas.
+	Then Business Case PPT.
+	Then Challenges Slide.
 	Then Change Management.
 	Then Company Powerpoint.
 	Then Competitor landscape.
