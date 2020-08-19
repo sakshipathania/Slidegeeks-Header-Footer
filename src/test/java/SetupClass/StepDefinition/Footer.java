@@ -497,7 +497,7 @@ public class Footer extends Setup {
 		  chat_pop_up();
 		  Thread.sleep(1500); 
 		  err_page();
-		} catch(NoSuchElementException va) { }
+		} catch(NoSuchElementException mtp) { }
 	}
 	
 	@Then("Org Structure PPT\\.$")
@@ -512,7 +512,7 @@ public class Footer extends Setup {
 		  chat_pop_up();
 		  Thread.sleep(1500); 
 		  err_page();
-		} catch(NoSuchElementException va) { }
+		} catch(NoSuchElementException osp) { }
 	}
 	
 	@Then("PPT Table Design\\.$")
@@ -527,7 +527,7 @@ public class Footer extends Setup {
 		  chat_pop_up();
 		  Thread.sleep(1500); 
 		  err_page();
-		} catch(NoSuchElementException va) { }
+		} catch(NoSuchElementException ptd) { }
 	}
 	
 	@Then("Sample PPT\\.$")
@@ -542,7 +542,7 @@ public class Footer extends Setup {
 		  chat_pop_up();
 		  Thread.sleep(1500); 
 		  err_page();
-		} catch(NoSuchElementException va) { }
+		} catch(NoSuchElementException spp) { }
 	}
 	
 	@Then("Swimlane Templates\\.$")
@@ -557,7 +557,7 @@ public class Footer extends Setup {
 		  chat_pop_up();
 		  Thread.sleep(1500); 
 		  err_page();
-		} catch(NoSuchElementException va) { }
+		} catch(NoSuchElementException stp) { }
 	}
 	
 	@Then("PPT Backgrounds\\.$")
@@ -572,7 +572,7 @@ public class Footer extends Setup {
 		  chat_pop_up();
 		  Thread.sleep(1500); 
 		  err_page();
-		} catch(NoSuchElementException va) { }
+		} catch(NoSuchElementException pbp) { }
 	}
 	
 	@Then("View All 3\\.$")
@@ -587,7 +587,7 @@ public class Footer extends Setup {
 		  chat_pop_up();
 		  Thread.sleep(1500); 
 		  err_page();
-		} catch(NoSuchElementException va) { }
+		} catch(NoSuchElementException vw) { }
 	}
 	
 	
