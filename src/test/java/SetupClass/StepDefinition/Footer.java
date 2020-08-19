@@ -298,7 +298,7 @@ public class Footer extends Setup {
 	public void Challenges_Slide() throws Throwable {
 		
 		try {
-		WebElement footer_14= driver.findElement(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[3]/ul/li[6]/a"));
+		WebElement footer_14= driver.findElement(By.xpath("//a[@href='/powerpoint-presentation-slides/challenges-opportunities.html'][contains(.,'Challenges Slide')]"));
 		Thread.sleep(3000);
 		js.executeScript("arguments[0].scrollIntoView();",footer_14);
 		  footer_14.click();
@@ -315,7 +315,7 @@ public class Footer extends Setup {
 	public void Change_Management() throws Throwable {
 		
 		try {
-		  WebElement footer_15= driver.findElement(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[3]/ul/li[7]/a"));
+		  WebElement footer_15= driver.findElement(By.xpath("//a[@href='/change-management-powerpoint-presentation-slides.html'][contains(.,'Change Management')]"));
 		  Thread.sleep(3000); 
 		js.executeScript("arguments[0].scrollIntoView();",footer_15);
 		  footer_15.click();
@@ -331,7 +331,7 @@ public class Footer extends Setup {
 	public void Company_Powerpoint() throws Throwable {
 		
 		try {
-		  WebElement footer_16= driver.findElement(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[3]/ul/li[9]/a"));
+		  WebElement footer_16= driver.findElement(By.xpath("//a[@href='/company-overview-powerpoint-presentation-slides.html'][contains(.,'Company PowerPoint"));
 		  Thread.sleep(3000); 
 		js.executeScript("arguments[0].scrollIntoView();",footer_16);
 		  footer_16.click();
@@ -346,7 +346,7 @@ public class Footer extends Setup {
 	public void Competitor_landscape() throws Throwable {
 		
 		try {
-		  WebElement footer_17=driver.findElement(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[3]/ul/li[11]/a"));
+		  WebElement footer_17=driver.findElement(By.xpath("//a[@href='/powerpoint-presentation-slides/competitive-landscape.html'][contains(.,'Competitor Landscape"));
 		  Thread.sleep(3000); 
 		js.executeScript("arguments[0].scrollIntoView();",footer_17);
 		  footer_17.click();
@@ -362,7 +362,7 @@ public class Footer extends Setup {
 	public void Current_State_PPT() throws Throwable {
 		
 		try {
-		  WebElement footer_18= driver.findElement(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[4]/ul/li[1]/a"));
+		  WebElement footer_18= driver.findElement(By.xpath("//a[@href='/powerpoint-presentation-slides/current-state-future-state.html'][contains(.,'Current State ppt"));
 		  Thread.sleep(3000); 
 		js.executeScript("arguments[0].scrollIntoView();",footer_18);
 		  footer_18.click();
@@ -378,7 +378,7 @@ public class Footer extends Setup {
 	public void Cybersecurity_PPT() throws Throwable {
 		
 		try {
-		  WebElement footer_19= driver.findElement(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[4]/ul/li[3]/a"));
+		  WebElement footer_19= driver.findElement(By.xpath("//a[@href='/cybersecurity-powerpoint-presentation-slides.html'][contains(.,'Cybersecurity PPT"));
 		  Thread.sleep(3000); 
 		js.executeScript("arguments[0].scrollIntoView();",footer_19);
 		  footer_19.click();
@@ -393,7 +393,7 @@ public class Footer extends Setup {
 	public void Disaster_Mgmt_ppt() throws Throwable {
 		
 		try {
-		  WebElement footer_20= driver.findElement(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[4]/ul/li[5]/a"));
+		  WebElement footer_20= driver.findElement(By.xpath("//a[@href='/disaster-management-powerpoint-presentation-slides.html'][contains(.,'Disaster Mgmt ppt"));
 		  Thread.sleep(3000); 
 		js.executeScript("arguments[0].scrollIntoView();",footer_20);
 		  footer_20.click();
@@ -409,7 +409,7 @@ public class Footer extends Setup {
 	@Then("Food Powerpoint\\.$")
 	public void Food_Powerpoint() throws InterruptedException {
 		try {
-		 WebElement footer_21= driver.findElement(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[4]/ul/li[6]/a"));
+		 WebElement footer_21= driver.findElement(By.xpath("//a[@href='/powerpoint-templates/food.html'][contains(.,'Food PowerPoint"));
 		  Thread.sleep(3000); 
 		js.executeScript("arguments[0].scrollIntoView();",footer_21);
 		  footer_21.click();
@@ -425,7 +425,7 @@ public class Footer extends Setup {
 	public void Happy_Birthday_PPT() throws InterruptedException {
 		
 		try {
-		 WebElement footer_22= driver.findElement(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[4]/ul/li[7]/a"));
+		 WebElement footer_22= driver.findElement(By.xpath("//a[@href='/happy-birthday-powerpoint-presentation-slides.html'][contains(.,'Happy Birthday PPT"));
 		  Thread.sleep(3000); 
 		js.executeScript("arguments[0].scrollIntoView();",footer_22);
 		  footer_22.click();
@@ -441,7 +441,7 @@ public class Footer extends Setup {
 	public void HR_Management_PPT() throws InterruptedException {
 		
 		try {
-		 WebElement footer_23= driver.findElement(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[4]/ul/li[9]/a"));
+		 WebElement footer_23= driver.findElement(By.xpath("//a[@href='/powerpoint-presentation-essentials/human-resource-management-slides.html'][contains(.,'HR Management PPT"));
 		  Thread.sleep(3000); 
 		js.executeScript("arguments[0].scrollIntoView();",footer_23);
 		  footer_23.click();
@@ -455,7 +455,7 @@ public class Footer extends Setup {
 	@Then("Introduce Yourself\\.$")
 	public void Introduce_Yourself() throws InterruptedException {
 		try {
-		 WebElement footer_24= driver.findElement(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[4]/ul/li[11]/a"));
+		 WebElement footer_24= driver.findElement(By.xpath("//a[@href='/introduce-yourself-powerpoint-presentation-slides.html'][contains(.,'Introduce Yourself"));
 		  Thread.sleep(3000); 
 		js.executeScript("arguments[0].scrollIntoView();",footer_24);
 		  footer_24.click();
@@ -472,7 +472,7 @@ public class Footer extends Setup {
 	public void View_All_1() throws InterruptedException {
 		
 		try {
-		 WebElement footer_25= driver.findElement(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[4]/ul/li[13]"));
+		 WebElement footer_25= driver.findElement(By.xpath("//a[@href='/professional-powerpoint-templates'][contains(.,'View All"));
 		  Thread.sleep(3000); 
 		js.executeScript("arguments[0].scrollIntoView();",footer_25);
 		  footer_25.click();
@@ -483,6 +483,112 @@ public class Footer extends Setup {
 		} catch(NoSuchElementException va) { }
 	}
 	
+	// Popular Template 3
+	
+	@Then("Master Thesis PPT\\.$")
+	public void Master_Thesis_PPT() throws InterruptedException {
+		
+		try {
+		 WebElement footer_26= driver.findElement(By.xpath("//a[@href='/master-thesis-defense-structure-powerpoint-presentation-slides.html'][contains(.,'Master Thesis PPT"));
+		  Thread.sleep(3000); 
+		js.executeScript("arguments[0].scrollIntoView();",footer_26);
+		  footer_26.click();
+		  log.info("FOOTER --> 28 || POPULAR PPT || Master Thesis PPT"); 
+		  chat_pop_up();
+		  Thread.sleep(1500); 
+		  err_page();
+		} catch(NoSuchElementException va) { }
+	}
+	
+	@Then("Org Structure PPT\\.$")
+	public void Org_Structure_PPT() throws InterruptedException {
+		
+		try {
+		 WebElement footer_27= driver.findElement(By.xpath("//a[@href='/powerpoint-presentation-essentials/organizational-structure-slides.html'][contains(.,'Org Structure PPT"));
+		  Thread.sleep(3000); 
+		js.executeScript("arguments[0].scrollIntoView();",footer_27);
+		  footer_27.click();
+		  log.info("FOOTER --> 29 || POPULAR PPT || Org Structure PPT"); 
+		  chat_pop_up();
+		  Thread.sleep(1500); 
+		  err_page();
+		} catch(NoSuchElementException va) { }
+	}
+	
+	@Then("PPT Table Design\\.$")
+	public void PPT_Table_Design() throws InterruptedException {
+		
+		try {
+		 WebElement footer_28= driver.findElement(By.xpath("//a[@href='/flat-design-diagrams/tables-matrix-flat-designs.html'][contains(.,'PPT Table Design"));
+		  Thread.sleep(3000); 
+		js.executeScript("arguments[0].scrollIntoView();",footer_28);
+		  footer_28.click();
+		  log.info("FOOTER --> 30 || POPULAR PPT || PPT Table Design"); 
+		  chat_pop_up();
+		  Thread.sleep(1500); 
+		  err_page();
+		} catch(NoSuchElementException va) { }
+	}
+	
+	@Then("Sample PPT\\.$")
+	public void Sample_PPT() throws InterruptedException {
+		
+		try {
+		 WebElement footer_29= driver.findElement(By.xpath("//a[@href='/sample-powerpoint-career-portfolio-powerpoint-presentation-slides.html'][contains(.,'Sample PPT"));
+		  Thread.sleep(3000); 
+		js.executeScript("arguments[0].scrollIntoView();",footer_29);
+		  footer_29.click();
+		  log.info("FOOTER --> 31 || POPULAR PPT || Sample PPT"); 
+		  chat_pop_up();
+		  Thread.sleep(1500); 
+		  err_page();
+		} catch(NoSuchElementException va) { }
+	}
+	
+	@Then("Swimlane Templates\\.$")
+	public void Swimlane_Templates() throws InterruptedException {
+		
+		try {
+		 WebElement footer_30= driver.findElement(By.xpath("//a[@href='/powerpoint-presentation-essentials/swimlanes-ppt-templates.html'][contains(.,'Swimlane Templates"));
+		  Thread.sleep(3000); 
+		js.executeScript("arguments[0].scrollIntoView();",footer_30);
+		  footer_30.click();
+		  log.info("FOOTER --> 32 || POPULAR PPT || Swimlane Templates"); 
+		  chat_pop_up();
+		  Thread.sleep(1500); 
+		  err_page();
+		} catch(NoSuchElementException va) { }
+	}
+	
+	@Then("PPT Backgrounds\\.$")
+	public void PPT_Backgrounds() throws InterruptedException {
+		
+		try {
+		 WebElement footer_31= driver.findElement(By.xpath("//a[@href='/powerpoint-templates/background.html'][contains(.,'PPT Backgrounds"));
+		  Thread.sleep(3000); 
+		js.executeScript("arguments[0].scrollIntoView();",footer_31);
+		  footer_31.click();
+		  log.info("FOOTER --> 33 || POPULAR PPT || PPT Backgrounds"); 
+		  chat_pop_up();
+		  Thread.sleep(1500); 
+		  err_page();
+		} catch(NoSuchElementException va) { }
+	}
+	
+	@Then("View All 3\\.$")
+	public void View_All_3() throws InterruptedException {
+		
+		try {
+		 WebElement footer_32= driver.findElement(By.xpath("//a[@href='/professional-powerpoint-templates'][contains(.,'View All"));
+		  Thread.sleep(3000); 
+		js.executeScript("arguments[0].scrollIntoView();",footer_32);
+		  footer_32.click();
+		  log.info("FOOTER --> 34 || POPULAR PPT || VIEW ALL"); 
+		  chat_pop_up();
+		  Thread.sleep(1500); 
+		  err_page();
+		} catch(NoSuchElementException va) { }
+	}
 	
 	
 	}
