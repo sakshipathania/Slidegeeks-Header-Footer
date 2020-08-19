@@ -1,7 +1,9 @@
 @Footer2
 Feature: Footer2
 Scenario: 
+
         Given Open the Website URL2.
+	user enter email and password1
         Then Company Powerpoint.
 	      Then Competitor landscape.
 	      Then Current State PPT.
