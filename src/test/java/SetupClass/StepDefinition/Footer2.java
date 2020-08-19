@@ -16,7 +16,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import gherkin.lexer.Th;
 
-public class Footer extends Setup {
+public class Footer2 extends Setup {
 	
 	WebDriverWait wait = new WebDriverWait(driver,50);
 	JavascriptExecutor js = (JavascriptExecutor) driver;
