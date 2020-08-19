@@ -279,7 +279,7 @@ public class Footer extends Setup {
 	public void Business_Case_PPT() throws Throwable {
 		
 		try {
-		WebElement footer_12= driver.findElement(By.xpath("/html/body/div[2]/footer/div/div/div[2]/div/div[3]/ul/li[4]/a"));
+		WebElement footer_12= driver.findElement(By.xpath("//a[@href='/powerpoint-presentation-essentials/business-case-study-slides.html'][contains(.,'Business Case PPT')]"));
 		Thread.sleep(3000);
 		js.executeScript("arguments[0].scrollIntoView();",footer_12);
 		  footer_12.click();
