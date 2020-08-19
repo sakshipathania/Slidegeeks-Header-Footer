@@ -93,6 +93,20 @@ public class Footer2 extends Setup {
 	catch (NoSuchElementException popup) {
 	}
 	}
+	
+	@Then("^user enter email and password1$")
+       public void user_enter_email_and_password1() throws InterruptedException  {
+    
+	       WebElement old_paid_email = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/main/div[2]/div/div[2]/div[2]/div[2]/form/fieldset/div[2]/div/input")));
+               old_paid_email.sendKeys("sakshi.pathania@slidetech.in");
+    
+               WebElement old_paid_pass = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/main/div[2]/div/div[2]/div[2]/div[2]/form/fieldset/div[3]/div/input")));
+               old_paid_pass.sendKeys("Qwerty@1");
+	       
+	       Thread.sleep(3000);
+	       WebElement old_paid_login_btn=wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("button.login > span:nth-child(1)")));
+	       old_paid_login_btn.click();
+        }
            @Then("^Company Powerpoint\\.$")
 	public void Company_Powerpoint() throws Throwable {
 		
