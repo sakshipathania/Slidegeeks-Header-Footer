@@ -73,7 +73,7 @@ public class Footer2 extends Setup {
   
   
   @Given("^Open the Website URL2\\.$")
-	public void open_the_Website_URL1() throws InterruptedException {
+	public void open_the_Website_URL2() throws InterruptedException {
 		
 		driver.get(AppURL);
 	driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
@@ -93,8 +93,6 @@ public class Footer2 extends Setup {
 	catch (NoSuchElementException popup) {
 	}
 	}
- }
-
            @Then("^Company Powerpoint\\.$")
 	public void Company_Powerpoint() throws Throwable {
 		
