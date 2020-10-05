@@ -9,7 +9,6 @@ Scenario:
 	Then Free PPTs Page.
 	Then Popular PPT Page.
 	Then Template Finder Page.
-	Then Check Ebooks Page.
 	Then Blog Page.
 	Then Free Business PPTs Page.
 	Then About Us Page.
