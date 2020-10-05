@@ -183,7 +183,7 @@ public class website_all_links extends Setup {
 		Thread.sleep(5000);
 		Actions actions = new Actions(driver);
 		WebElement Learn_btn1=wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Learn")));
-		actions.moveToElement(Learn_btn1).moveToElement(driver.findElement(By.xpath("//a[contains(text(),'ebooks')]"))).click().build().perform();
+		actions.moveToElement(Learn_btn1).moveToElement(driver.findElement(By.xpath("//a[contains(text(),'eBooks')]"))).click().build().perform();
 		Thread.sleep(7000);
 		
 		Thread.sleep(5000);
