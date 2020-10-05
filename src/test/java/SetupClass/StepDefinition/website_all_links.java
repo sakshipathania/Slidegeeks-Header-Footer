@@ -166,7 +166,7 @@ public class website_all_links extends Setup {
 	}
 
 
-	@Then("^Check Ebooks Page\\.$")
+	/*@Then("^Check Ebooks Page\\.$")
 	public void check_Ebooks_Page() throws Throwable {
 		WebElement ebook = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='menu-link'][contains(.,'eBooks')]")));
 		clear_cache();
@@ -176,7 +176,7 @@ public class website_all_links extends Setup {
 		Thread.sleep(3000);
 		chat_pop_up();
 		err_page();
-	}
+	}*/
 
 
 	@Then("^Blog Page\\.$")
@@ -192,26 +192,26 @@ public class website_all_links extends Setup {
 		
 		Thread.sleep(5000);
 		Actions actions = new Actions(driver);
-		WebElement free_ppt_btn1=wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Learn")));
-		actions.moveToElement(free_ppt_btn1).moveToElement(driver.findElement(By.xpath("//a[contains(text(),'ebooks')]"))).click().build().perform();
+		WebElement Learn_btn1=wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Learn")));
+		actions.moveToElement(Learn_btn1).moveToElement(driver.findElement(By.xpath("//a[contains(text(),'ebooks')]"))).click().build().perform();
 		Thread.sleep(7000);
 		
 		Thread.sleep(5000);
 		Actions actions = new Actions(driver);
-		WebElement free_ppt_btn1=wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Learn")));
-		actions.moveToElement(free_ppt_btn1).moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Blog')]"))).click().build().perform();
+		WebElement Learn_btn2=wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Learn")));
+		actions.moveToElement(Learn_btn2).moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Blog')]"))).click().build().perform();
 		Thread.sleep(7000);
 		
 		Thread.sleep(5000);
 		Actions actions = new Actions(driver);
-		WebElement free_ppt_btn1=wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Our Services")));
-		actions.moveToElement(free_ppt_btn1).moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Design Services')]"))).click().build().perform();
+		WebElement Our_Services_btn1=wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Our Services")));
+		actions.moveToElement(Our_Services_btn1).moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Design Services')]"))).click().build().perform();
 		Thread.sleep(7000);
 		
 		Thread.sleep(5000);
 		Actions actions = new Actions(driver);
-		WebElement free_ppt_btn1=wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Our Services")));
-		actions.moveToElement(free_ppt_btn1).moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Research Services')]"))).click().build().perform();
+		WebElement Our_Services_btn2=wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Our Services")));
+		actions.moveToElement(Our_Services_btn2).moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Research Services')]"))).click().build().perform();
 		Thread.sleep(7000);
 	}
 
