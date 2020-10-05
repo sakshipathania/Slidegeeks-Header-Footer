@@ -332,19 +332,6 @@ public class website_all_links extends Setup {
 		err_page();
 	}
 
-
-	/*@Then("^Research Services Page\\.$")
-	public void Research_Services_Page() throws Throwable {
-		WebElement rs_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Research Services'][contains(.,'Research Services')]")));
-		Thread.sleep(3000);
-		clear_cache();
-		js.executeScript("arguments[0].scrollIntoView();",rs_footer);
-		rs_footer.click();
-		log.info("FOOTER --> RESEARCH SERVICES");
-		Thread.sleep(3000);
-		chat_pop_up();
-		err_page();
-	}*/
 	
 	@Then("^Resume Services Page\\.$")
 	public void Resume_Services_Page() throws Throwable {
