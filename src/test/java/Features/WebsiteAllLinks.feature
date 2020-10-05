@@ -18,7 +18,6 @@ Scenario:
 	Then Privacy Policy Page.
 	Then Popular Free Slides Page.
 	Then Custom Design Services Page.
-	Then Research Services Page.
 	Then Resume Services Page.
 	Then Google Slides Page.
 	Then Coupon Code.
