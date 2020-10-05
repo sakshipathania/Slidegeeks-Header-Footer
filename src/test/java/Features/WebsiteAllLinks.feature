@@ -10,7 +10,6 @@ Scenario:
 	Then Popular PPT Page.
 	Then Template Finder Page.
 	Then Blog Page.
-	Then Free Business PPTs Page.
 	Then About Us Page.
 	Then Site Map Page.
 	Then Contact Us Page.
