@@ -218,8 +218,8 @@ public class website_all_links extends Setup {
 		log.info("FREE BUSINESS PPT");
 		Thread.sleep(3000);
 		chat_pop_up();
-		err_page();*/
-	}
+		err_page();
+	} */
 
 	
 
