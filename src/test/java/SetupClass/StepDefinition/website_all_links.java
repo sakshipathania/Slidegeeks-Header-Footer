@@ -333,7 +333,7 @@ public class website_all_links extends Setup {
 	}
 
 
-	@Then("^Research Services Page\\.$")
+	/*@Then("^Research Services Page\\.$")
 	public void Research_Services_Page() throws Throwable {
 		WebElement rs_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Research Services'][contains(.,'Research Services')]")));
 		Thread.sleep(3000);
@@ -344,7 +344,7 @@ public class website_all_links extends Setup {
 		Thread.sleep(3000);
 		chat_pop_up();
 		err_page();
-	}
+	}*/
 	
 	@Then("^Resume Services Page\\.$")
 	public void Resume_Services_Page() throws Throwable {
