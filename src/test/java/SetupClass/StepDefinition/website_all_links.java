@@ -180,7 +180,7 @@ public class website_all_links extends Setup {
 
 
 	@Then("^Blog Page\\.$")
-	public void blog_Page() throws Throwable {
+	public void Blog_Page() throws Throwable {
 		/*WebElement blog_page = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='menu-link'][contains(.,'Blog')]")));
 		clear_cache();
 		Thread.sleep(3000);
@@ -197,19 +197,19 @@ public class website_all_links extends Setup {
 		Thread.sleep(7000);
 		
 		Thread.sleep(5000);
-		Actions actions = new Actions(driver);
+		//Actions actions = new Actions(driver);
 		WebElement Learn_btn2=wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Learn")));
 		actions.moveToElement(Learn_btn2).moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Blog')]"))).click().build().perform();
 		Thread.sleep(7000);
 		
 		Thread.sleep(5000);
-		Actions actions = new Actions(driver);
+		//Actions actions = new Actions(driver);
 		WebElement Our_Services_btn1=wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Our Services")));
 		actions.moveToElement(Our_Services_btn1).moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Design Services')]"))).click().build().perform();
 		Thread.sleep(7000);
 		
 		Thread.sleep(5000);
-		Actions actions = new Actions(driver);
+		//Actions actions = new Actions(driver);
 		WebElement Our_Services_btn2=wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Our Services")));
 		actions.moveToElement(Our_Services_btn2).moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Research Services')]"))).click().build().perform();
 		Thread.sleep(7000);
