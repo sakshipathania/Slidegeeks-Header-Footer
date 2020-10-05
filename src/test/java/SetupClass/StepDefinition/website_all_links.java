@@ -137,6 +137,10 @@ public class website_all_links extends Setup {
 		WebElement free_ppt_btn1=wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Free Stuff")));
 		actions.moveToElement(free_ppt_btn1).moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Free PPTs')]"))).click().build().perform();
 		Thread.sleep(7000);
+
+                WebElement free_ppt_btn2=wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Free Stuff")));
+		actions.moveToElement(free_ppt_btn2).moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Free Business PPTs')]"))).click().build().perform();
+		Thread.sleep(7000);
 		 
 	}
 	
@@ -205,7 +209,7 @@ public class website_all_links extends Setup {
 		Thread.sleep(7000);
 	}
 
-	@Then("^Free Business PPTs Page\\.$")
+	/*@Then("^Free Business PPTs Page\\.$")
 	public void free_Business_PPTs_Page() throws Throwable {
 		WebElement free_business_ppt = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='menu-link'][contains(.,'Free Business PPTs')]")));
 		clear_cache();
@@ -214,7 +218,7 @@ public class website_all_links extends Setup {
 		log.info("FREE BUSINESS PPT");
 		Thread.sleep(3000);
 		chat_pop_up();
-		err_page();
+		err_page();*/
 	}
 
 	
