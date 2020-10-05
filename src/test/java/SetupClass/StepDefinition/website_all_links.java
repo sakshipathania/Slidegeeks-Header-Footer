@@ -124,14 +124,19 @@ public class website_all_links extends Setup {
 	@Then("^Free PPTs Page\\.$")
 	public void Free_PPTs_Page() throws Throwable {
 	    
-		WebElement free_ppt = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='menu-link'][contains(.,'Free PPTs')]")));
+		/*WebElement free_ppt = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='menu-link'][contains(.,'Free PPTs')]")));
 		clear_cache();
 		Thread.sleep(3000);
 		free_ppt.click();
 		log.info("FREE PPT");
 		Thread.sleep(3000);
 		chat_pop_up();
-		err_page();
+		err_page(); */
+		Thread.sleep(5000);
+		Actions actions = new Actions(driver);
+		WebElement free_ppt_btn1=wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Free Stuff")));
+		actions.moveToElement(free_ppt_btn1).moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Free PPTs')]"))).click().build().perform();
+		Thread.sleep(7000);
 		 
 	}
 	
@@ -176,14 +181,38 @@ public class website_all_links extends Setup {
 
 	@Then("^Blog Page\\.$")
 	public void blog_Page() throws Throwable {
-		WebElement blog_page = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='menu-link'][contains(.,'Blog')]")));
+		/*WebElement blog_page = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='menu-link'][contains(.,'Blog')]")));
 		clear_cache();
 		Thread.sleep(3000);
 		blog_page.click();
 		log.info("BLOG");
 		Thread.sleep(3000);
 		chat_pop_up();
-		err_page();
+		err_page();*/
+		
+		Thread.sleep(5000);
+		Actions actions = new Actions(driver);
+		WebElement free_ppt_btn1=wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Learn")));
+		actions.moveToElement(free_ppt_btn1).moveToElement(driver.findElement(By.xpath("//a[contains(text(),'ebooks')]"))).click().build().perform();
+		Thread.sleep(7000);
+		
+		Thread.sleep(5000);
+		Actions actions = new Actions(driver);
+		WebElement free_ppt_btn1=wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Learn")));
+		actions.moveToElement(free_ppt_btn1).moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Blog')]"))).click().build().perform();
+		Thread.sleep(7000);
+		
+		Thread.sleep(5000);
+		Actions actions = new Actions(driver);
+		WebElement free_ppt_btn1=wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Our Services")));
+		actions.moveToElement(free_ppt_btn1).moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Design Services')]"))).click().build().perform();
+		Thread.sleep(7000);
+		
+		Thread.sleep(5000);
+		Actions actions = new Actions(driver);
+		WebElement free_ppt_btn1=wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Our Services")));
+		actions.moveToElement(free_ppt_btn1).moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Research Services')]"))).click().build().perform();
+		Thread.sleep(7000);
 	}
 
 	@Then("^Free Business PPTs Page\\.$")
