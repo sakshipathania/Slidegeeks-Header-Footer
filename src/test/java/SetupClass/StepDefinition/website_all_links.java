@@ -175,16 +175,25 @@ public class website_all_links extends Setup {
 
 	@Then("^Blog Page\\.$")
 	public void Blog_Page() throws Throwable {
-		/*WebElement blog_page = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='menu-link'][contains(.,'Blog')]")));
+		WebElement blog_page = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='menu-link'][contains(.,'Blog')]")));
 		clear_cache();
 		Thread.sleep(3000);
 		blog_page.click();
 		log.info("BLOG");
 		Thread.sleep(3000);
 		chat_pop_up();
-		err_page();*/
+		err_page();
 		
-		Thread.sleep(5000);
+		Thread.sleep(4000);
+		WebElement eBooks = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='menu-link'][contains(.,'eBooks')]")));
+		clear_cache();
+		Thread.sleep(3000);
+		eBooks.click();
+		log.info("EBOOKS");
+		Thread.sleep(3000);
+		chat_pop_up();
+		err_page();
+		/*Thread.sleep(5000);
 		Actions actions = new Actions(driver);
 		WebElement Learn_btn1=wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Learn")));
 		actions.moveToElement(Learn_btn1).moveToElement(driver.findElement(By.xpath("//a[contains(text(),'eBooks')]"))).click().build().perform();
@@ -206,7 +215,7 @@ public class website_all_links extends Setup {
 		//Actions actions = new Actions(driver);
 		WebElement Our_Services_btn2=wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Our Services")));
 		actions.moveToElement(Our_Services_btn2).moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Research Services')]"))).click().build().perform();
-		Thread.sleep(7000);
+		Thread.sleep(7000);*/
 	}
 
 	/*@Then("^Free Business PPTs Page\\.$")
