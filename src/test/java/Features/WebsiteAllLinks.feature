@@ -11,7 +11,6 @@ Scenario:
 	Then Template Finder Page.
 	Then Blog Page.
 	Then About Us Page.
-	Then Site Map Page.
 	Then Contact Us Page.
 	Then FAQ Page.
 	Then Terms of Use Page.
