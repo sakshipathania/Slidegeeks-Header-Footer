@@ -157,7 +157,7 @@ public class website_all_links extends Setup {
 	}
 	
 	@Then("^Template Finder Page\\.$")
-	public void template_Finder_Page() throws Throwable {
+	public void Template_Finder_Page() throws Throwable {
 		WebElement template_finder= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='menu-link'][contains(.,'Template Finder')]")));
 		clear_cache();
 		Thread.sleep(3000);
@@ -233,7 +233,7 @@ public class website_all_links extends Setup {
 	
 
 	@Then("^About Us Page\\.$")
-	public void about_Us_Page() throws Throwable {
+	public void About_Us_Page() throws Throwable {
 		try {
 		WebElement about_us_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title=' About Us'][contains(.,'About Us')]")));
 		clear_cache();
@@ -250,8 +250,8 @@ public class website_all_links extends Setup {
 	}
 
 
-	/*@Then("^Site Map Page\\.$")
-	public void site_Map_Page() throws Throwable {
+	@Then("^Site Map Page\\.$")
+	public void Site_Map_Page() throws Throwable {
 		WebElement site_map_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Site Map'][contains(.,'Site Map')]")));
 		clear_cache();
 		js.executeScript("arguments[0].scrollIntoView();",site_map_footer);
@@ -261,10 +261,10 @@ public class website_all_links extends Setup {
 		Thread.sleep(3000);
 		chat_pop_up();
 		err_page();
-	}*/
+	}
 
 	@Then("^Contact Us Page\\.$")
-	public void contact_Us_Page() throws Throwable {
+	public void Contact_Us_Page() throws Throwable {
 		WebElement contact_us_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title=' Contact Us'][contains(.,'Contact Us')]")));
 		clear_cache();
 		Thread.sleep(3000);
@@ -277,7 +277,7 @@ public class website_all_links extends Setup {
 	}
 
 	@Then("^FAQ Page\\.$")
-	public void faq_Page() throws Throwable {
+	public void FAQ_Page() throws Throwable {
 		WebElement faq_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='FAQ'][contains(.,'FAQ')]")));
 		clear_cache();
 		Thread.sleep(3000);
@@ -290,7 +290,7 @@ public class website_all_links extends Setup {
 	}
 
 	@Then("^Terms of Use Page\\.$")
-	public void terms_of_Use_Page() throws Throwable {
+	public void Terms_of_Use_Page() throws Throwable {
 		WebElement terms_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title=' Terms of Use'][contains(.,'Terms of Use')]")));
 		clear_cache();
 		js.executeScript("arguments[0].scrollIntoView();",terms_footer);
@@ -358,7 +358,7 @@ public class website_all_links extends Setup {
 	}
 
 	@Then("^Google Slides Page\\.$")
-	public void google_Slides_Page() throws Throwable {
+	public void Google_Slides_Page() throws Throwable {
 		WebElement g_slide_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Google Slides'][contains(.,'Google Slides')]")));
 		Thread.sleep(3000);
 		clear_cache();
