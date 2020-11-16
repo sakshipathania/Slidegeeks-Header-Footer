@@ -250,7 +250,7 @@ public class website_all_links extends Setup {
 	}
 
 
-	@Then("^Site Map Page\\.$")
+	/*@Then("^Site Map Page\\.$")
 	public void site_Map_Page() throws Throwable {
 		WebElement site_map_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title='Site Map'][contains(.,'Site Map')]")));
 		clear_cache();
@@ -261,7 +261,7 @@ public class website_all_links extends Setup {
 		Thread.sleep(3000);
 		chat_pop_up();
 		err_page();
-	}
+	}*/
 
 	@Then("^Contact Us Page\\.$")
 	public void contact_Us_Page() throws Throwable {
