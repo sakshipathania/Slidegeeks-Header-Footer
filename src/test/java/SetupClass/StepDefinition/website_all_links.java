@@ -304,7 +304,7 @@ public class website_all_links extends Setup {
 	
 	@Then("^Introduction Slide\\.$")
 	public void Introduction_Slide() throws Throwable {
-		WebElement Powerpoint_Table_Template = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Introduction Slide')]")));
+		WebElement Introduction_Slide = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Introduction Slide')]")));
 		clear_cache();
 		Thread.sleep(3000);
 		Introduction_Slide.click();
