@@ -230,7 +230,7 @@ public class website_all_links extends Setup {
 		
 	@Then("^Ebooks\\.$")
 	public void Ebooks() throws Throwable {	
-		WebElement eBooks = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='ebook-top-menunav-linkk'][contains(.,'Ebooks')]")));
+		WebElement eBooks = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='ebook-top-menunav-link'][contains(.,'Ebooks')]")));
 		clear_cache();
 		Thread.sleep(3000);
 		eBooks.click();
