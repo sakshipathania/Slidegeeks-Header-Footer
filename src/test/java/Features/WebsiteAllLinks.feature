@@ -1,5 +1,5 @@
 @website_all_links
-Feature: SlideTeam Links
+Feature: SlideGeeks Links
 
 @header
 Scenario: 
