@@ -93,19 +93,22 @@ public class website_all_links extends Setup {
 	}
 	}
 
-	/*@Then("^user enter email and password epu$")
+	@Then("^user enter email and password epu$")
        public void user_enter_email_and_password_epu() throws InterruptedException  {
     
-	        WebElement old_paid_email = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/main/div[2]/div/div[2]/div[2]/div[2]/form/fieldset/div[2]/div/input")));
+	       driver.get("https://www.slidegeeks.com/account");
+	       Thread.sleep(3000);
+	       
+	        WebElement old_paid_email = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[1]/div[3]/div/div[2]/div/div/div[2]/div/form/div[1]/input")));
                old_paid_email.sendKeys("sakshi.pathania@slidetech.in");
     
-               WebElement old_paid_pass = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/main/div[2]/div/div[2]/div[2]/div[2]/form/fieldset/div[3]/div/input")));
+               WebElement old_paid_pass = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[1]/div[3]/div/div[2]/div/div/div[2]/div/form/div[2]/input")));
                old_paid_pass.sendKeys("Qwerty@1");
 	       
 	       Thread.sleep(3000);
-	       WebElement old_paid_login_btn=wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("button.login > span:nth-child(1)")));
+	       WebElement old_paid_login_btn=wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#pg-account-action > div > div:nth-child(2) > div > form > div.btn-wrapper.login_btn > input")));
 	       old_paid_login_btn.click();
-        } */
+        }
 	
 	@Then("^Home\\.$")
 	public void Home() throws Throwable {
