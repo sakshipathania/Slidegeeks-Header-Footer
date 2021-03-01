@@ -34,7 +34,7 @@ Scenario:
 	Then Checklist PPT.
 	Then About Us Page.
 	Then Contact Us Page.
-	Then Privacy Policy Page.
+	Then Privacy Policy.
 	Then Terms and Contidion.
 	Then FAQ Page.
 	Then Coupon Code.
