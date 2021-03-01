@@ -258,7 +258,7 @@ public class website_all_links extends Setup {
 		WebElement Agenda_Slide = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Agenda Slide')]")));
 		clear_cache();
 		Thread.sleep(3000);
-		Free_PPT_Templates.click();
+		Agenda_Slide.click();
 		log.info("AGENDA SLIDE");
 		Thread.sleep(3000);
 		chat_pop_up();
@@ -342,7 +342,7 @@ public class website_all_links extends Setup {
 	
 	@Then("^Self Introduction PPT\\.$")
 	public void Self_Introduction_PPT() throws Throwable {
-		WebElement Powerpoint_List_Template= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Self Introduction PPT')]")));
+		WebElement Self_Introduction_PPT= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Self Introduction PPT')]")));
 		clear_cache();
 		Thread.sleep(3000);
 		Self_Introduction_PPT.click();
@@ -377,17 +377,6 @@ public class website_all_links extends Setup {
 		err_page();
 	} 
 	
-	@Then("^Powerpoint Award Template\\.$")
-	public void Powerpoint_Award_Template() throws Throwable {
-		WebElement Powerpoint_Award_Template= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Powerpoint Award Template')]")));
-		clear_cache();
-		Thread.sleep(3000);
-		Powerpoint_Award_Template.click();
-		log.info("POWERPOINT AWARD TEMPLATE");
-		Thread.sleep(3000);
-		chat_pop_up();
-		err_page();
-	} 
 	
 	@Then("^Newspaper Template Powerpoint\\.$")
 	public void Newspaper_Template_Powerpoint() throws Throwable {
