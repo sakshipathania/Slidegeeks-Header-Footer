@@ -33,12 +33,24 @@
             },
             "keyword": "Given "
           },
+           {
+            "result": {
+              "duration": 23517965300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter email and password epu",
+            "match": {
+              "location": "website_all_links.user enter email and password epu()"
+            },
+            "keyword": "Then "
+          },
           {
             "result": {
               "duration": 17561563100,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "Home.",
             "match": {
               "location": "website_all_links.Home()"
@@ -50,7 +62,7 @@
               "duration": 17656696600,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "Pricing Page.",
             "match": {
               "location": "website_all_links.Pricing_Page()"
@@ -62,7 +74,7 @@
               "duration": 17036769800,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "New_Additions.",
             "match": {
               "location": "website_all_links.New_Additions()"
@@ -74,7 +86,7 @@
               "duration": 18017056600,
               "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "Most_Popular.",
             "match": {
               "location": "website_all_links.Most_Popular()"
@@ -86,7 +98,7 @@
               "duration": 17788539700,
               "status": "passed"
             },
-            "line": 12,
+            "line": 13,
             "name": "Free_PPTs_Page.",
             "match": {
               "location": "website_all_links.Free_PPTs_Page()"
@@ -98,7 +110,7 @@
               "duration": 19022716400,
               "status": "passed"
             },
-            "line": 13,
+            "line": 14,
             "name": "Visual_Search.",
             "match": {
               "location": "website_all_links.Visual_Search()"
@@ -110,7 +122,7 @@
               "duration": 17099086300,
               "status": "passed"
             },
-            "line": 14,
+            "line": 15,
             "name": "Discussion.",
             "match": {
               "location": "website_all_links.Discussion()"
@@ -122,7 +134,7 @@
               "duration": 22796445600,
               "status": "passed"
             },
-            "line": 15,
+            "line": 16,
             "name": "Blog_Page.",
             "match": {
               "location": "website_all_links.Blog_Page()"
@@ -134,503 +146,306 @@
               "duration": 22796445600,
               "status": "passed"
             },
-            "line": 15,
+            "line": 17,
             "name": "Ebooks.",
             "match": {
               "location": "website_all_links.Ebooks()"
             },
             "keyword": "Then "
           }
-        ],
-        "tags": [
-          {
-            "line": 4,
-            "name": "@header"
-          }
-        ]
-      },
-      {
-        "line": 36,
-        "name": "Footer Quick Links.",
-        "description": "",
-        "id": "slidegeeks-links;footer-quick-links.;;2",
-        "after": [
-          {
+           {
             "result": {
-              "duration": 25600,
+              "duration": 22796445600,
               "status": "passed"
             },
+            "line": 18,
+            "name": "Free PPT Templates.",
             "match": {
-              "location": "TakeImageStep.tearDown(Scenario)"
-            }
+              "location": "website_all_links.Free PPT Templates()"
+            },
+            "keyword": "Then "
           }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
+           {
+            "result": {
+              "duration": 22796445600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Agenda Slide.",
+            "match": {
+              "location": "website_all_links.Agenda Slide()"
+            },
+            "keyword": "Then "
+          }
           {
             "result": {
-              "duration": 18455324000,
+              "duration": 22796445600,
               "status": "passed"
             },
             "line": 20,
-            "name": "About Us Page.",
+            "name": "Roadmap Slide.",
             "match": {
-              "location": "website_all_links.about_Us_Page()"
+              "location": "website_all_links.Roadmap Slide()"
             },
             "keyword": "Then "
-          },
+          }
           {
             "result": {
-              "duration": 19389672500,
+              "duration": 22796445600,
               "status": "passed"
             },
             "line": 21,
-            "name": "How it Works page.",
+            "name": "Birthday PPT.",
             "match": {
-              "location": "website_all_links.how_it_Works_page()"
+              "location": "website_all_links.Birthday PPT()"
             },
             "keyword": "Then "
-          },
-          {
+          }
+           {
             "result": {
-              "duration": 17190720800,
+              "duration": 22796445600,
               "status": "passed"
             },
             "line": 22,
-            "name": "Site Map Page.",
+            "name": "Powerpoint Table Template.",
             "match": {
-              "location": "website_all_links.site_Map_Page()"
+              "location": "website_all_links.Powerpoint Table Template()"
             },
             "keyword": "Then "
-          },
-          {
+          }
+           {
             "result": {
-              "duration": 16793745000,
+              "duration": 22796445600,
               "status": "passed"
             },
             "line": 23,
-            "name": "Contact Us Page.",
+            "name": "Introduction Slide.",
             "match": {
-              "location": "website_all_links.contact_Us_Page()"
+              "location": "website_all_links.Introduction Slide()"
             },
             "keyword": "Then "
-          },
-          {
+          }
+           {
             "result": {
-              "duration": 18443686600,
+              "duration": 22796445600,
               "status": "passed"
             },
             "line": 24,
-            "name": "FAQ Page.",
+            "name": "Conclusion Slide.",
             "match": {
-              "location": "website_all_links.faq_Page()"
+              "location": "website_all_links.Conclusion Slide()"
             },
             "keyword": "Then "
-          },
-          {
+          }
+           {
             "result": {
-              "duration": 18460107700,
+              "duration": 22796445600,
               "status": "passed"
             },
             "line": 25,
-            "name": "Terms of Use Page.",
+            "name": "Powerpoint List Template.",
             "match": {
-              "location": "website_all_links.terms_of_Use_Page()"
+              "location": "website_all_links.Powerpoint List Template()"
             },
             "keyword": "Then "
-          },
+          }
           {
             "result": {
-              "duration": 19248996500,
+              "duration": 22796445600,
               "status": "passed"
             },
             "line": 26,
-            "name": "Privacy Policy Page.",
+            "name": "Self Introduction PPT.",
             "match": {
-              "location": "website_all_links.privacy_Policy_Page()"
+              "location": "website_all_links.Self Introduction PPT()"
             },
             "keyword": "Then "
-          },
+          }
           {
             "result": {
-              "duration": 19404670200,
+              "duration": 22796445600,
               "status": "passed"
             },
             "line": 27,
-            "name": "Popular Free Slides Page.",
+            "name": "Cash Position Report.",
             "match": {
-              "location": "website_all_links.popular_Free_Slides_Page()"
+              "location": "website_all_links.Cash Position Report()"
             },
             "keyword": "Then "
-          },
-          {
+          }
+           {
             "result": {
-              "duration": 18774190400,
+              "duration": 22796445600,
               "status": "passed"
             },
             "line": 28,
-            "name": "Template Finder Page.",
+            "name": "Powerpoint Award Template.",
             "match": {
-              "location": "website_all_links.template_Finder_Page()"
+              "location": "website_all_links.Powerpoint Award Template()"
             },
             "keyword": "Then "
-          },
-          {
+          }
+           {
             "result": {
-              "duration": 21801360200,
+              "duration": 22796445600,
               "status": "passed"
             },
             "line": 29,
-            "name": "Research Services Page.",
+            "name": "Newspaper Template Powerpoint.",
             "match": {
-              "location": "website_all_links.research_Services_Page()"
+              "location": "website_all_links.Newspaper Template Powerpoint()"
             },
             "keyword": "Then "
-          },
-          {
+          }
+           {
             "result": {
-              "duration": 23353883700,
+              "duration": 22796445600,
               "status": "passed"
             },
             "line": 30,
-            "name": "Google Slides Page.",
+            "name": "Achievement Presentation.",
             "match": {
-              "location": "website_all_links.google_Slides_Page()"
+              "location": "website_all_links.Achievement Presentation()"
             },
             "keyword": "Then "
           }
-        ],
-        "tags": [
-          {
-            "line": 1,
-            "name": "@website_all_links"
-          },
-          {
-            "line": 17,
-            "name": "@Footer_Quick_Links"
-          }
-        ]
-      },
-      {
-        "line": 39,
-        "name": "Test Diagram Footer.",
-        "description": "",
-        "id": "slideteam-links;test-diagram-footer.",
-        "after": [
-          {
+           {
             "result": {
-              "duration": 27500,
+              "duration": 22796445600,
               "status": "passed"
             },
+            "line": 31,
+            "name": "Milestone PPT.",
             "match": {
-              "location": "TakeImageStep.tearDown(Scenario)"
-            }
+              "location": "website_all_links.Milestone PPT()"
+            },
+            "keyword": "Then "
           }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
+           {
+            "result": {
+              "duration": 22796445600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Music Powerpoint Templates.",
+            "match": {
+              "location": "website_all_links.Music Powerpoint Templates()"
+            },
+            "keyword": "Then "
+          }
+           {
+            "result": {
+              "duration": 22796445600,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Checklist PPT.",
+            "match": {
+              "location": "website_all_links.Checklist PPT()"
+            },
+            "keyword": "Then "
+          }
+           {
+            "result": {
+              "duration": 22796445600,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "About Us Page.",
+            "match": {
+              "location": "website_all_links.About Us Page)"
+            },
+            "keyword": "Then "
+          }
+           {
+            "result": {
+              "duration": 22796445600,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Contact Us Page.",
+            "match": {
+              "location": "website_all_links.Contact Us Page()"
+            },
+            "keyword": "Then "
+          }
+           {
+            "result": {
+              "duration": 22796445600,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Privacy Policy.",
+            "match": {
+              "location": "website_all_links.Privacy Policy()"
+            },
+            "keyword": "Then "
+          }
+           {
+            "result": {
+              "duration": 22796445600,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Terms and Contidion.",
+            "match": {
+              "location": "website_all_links.Terms and Contidion()"
+            },
+            "keyword": "Then "
+          }
+           {
+            "result": {
+              "duration": 22796445600,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "FAQ Page.",
+            "match": {
+              "location": "website_all_links.FAQ Page()"
+            },
+            "keyword": "Then "
+          }
           {
             "result": {
-              "duration": 44400,
+              "duration": 22796445600,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Coupon Code.",
+            "match": {
+              "location": "website_all_links.Coupon Code()"
+            },
+            "keyword": "Then "
+          }
+          {
+            "result": {
+              "duration": 22796445600,
               "status": "passed"
             },
             "line": 40,
-            "name": "user is already on Website Footer.",
+            "name": "Custom Design Services Page.",
             "match": {
-              "location": "website_all_links.user_is_already_on_Website_Footer()"
+              "location": "website_all_links.Custom Design Services Page()"
             },
-            "keyword": "Given "
-          },
+            "keyword": "Then "
+          }
           {
             "result": {
-              "duration": 22476931600,
+              "duration": 22796445600,
               "status": "passed"
             },
             "line": 41,
-            "name": "Advertising Test Diagram Page.",
+            "name": "Research Services Page.",
             "match": {
-              "location": "website_all_links.advertising_Test_Diagram_Page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 21015223900,
-              "status": "passed"
-            },
-            "line": 42,
-            "name": "View All Test Diagram Page.",
-            "match": {
-              "location": "website_all_links.view_All_Test_Diagram_Page()"
+              "location": "website_all_links.Research Services Page()"
             },
             "keyword": "Then "
           }
         ],
-        "tags": [
-          {
-            "line": 38,
-            "name": "@1_Diagrams"
-          }
-        ]
-      },
-      {
-        "line": 45,
-        "name": "Business Slides Footer.",
-        "description": "",
-        "id": "slideteam-links;business-slides-footer.",
-        "after": [
-          {
-            "result": {
-              "duration": 23200,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TakeImageStep.tearDown(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 39800,
-              "status": "passed"
-            },
-            "line": 46,
-            "name": "user is already on Website Footer.",
-            "match": {
-              "location": "website_all_links.user_is_already_on_Website_Footer()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 22213898200,
-              "status": "passed"
-            },
-            "line": 47,
-            "name": "About Us Company Details Business Details Page.",
-            "match": {
-              "location": "website_all_links.about_Us_Company_Details_Business_Details_Page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 18953516500,
-              "status": "passed"
-            },
-            "line": 48,
-            "name": "View All Business Slides Page.",
-            "match": {
-              "location": "website_all_links.view_All_Business_Slides_Page()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 44,
-            "name": "@2_Business_Slides"
-          }
-        ]
-      },
-      {
-        "line": 51,
-        "name": "Arrows and Targets Footer.",
-        "description": "",
-        "id": "slideteam-links;arrows-and-targets-footer.",
-        "after": [
-          {
-            "result": {
-              "duration": 23100,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TakeImageStep.tearDown(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 46200,
-              "status": "passed"
-            },
-            "line": 52,
-            "name": "user is already on Website Footer.",
-            "match": {
-              "location": "website_all_links.user_is_already_on_Website_Footer()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 10186950500,
-              "status": "passed"
-            },
-            "line": 53,
-            "name": "Arrows and Targets Flat Designs Page.",
-            "match": {
-              "location": "website_all_links.arrows_and_Targets_Flat_Designs_Page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 9979265700,
-              "status": "passed"
-            },
-            "line": 54,
-            "name": "View All Flat Designs Page.",
-            "match": {
-              "location": "website_all_links.view_All_Flat_Designs_Page()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 50,
-            "name": "@3_Flat_Designs"
-          }
-        ]
-      },
-      {
-        "line": 57,
-        "name": "Themes Footer.",
-        "description": "",
-        "id": "slideteam-links;themes-footer.",
-        "after": [
-          {
-            "result": {
-              "duration": 26400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TakeImageStep.tearDown(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 34900,
-              "status": "passed"
-            },
-            "line": 58,
-            "name": "user is already on Website Footer.",
-            "match": {
-              "location": "website_all_links.user_is_already_on_Website_Footer()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 10813188500,
-              "status": "passed"
-            },
-            "line": 59,
-            "name": "Abstract Themes Page.",
-            "match": {
-              "location": "website_all_links.abstract_Themes_Page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 10679473800,
-              "status": "passed"
-            },
-            "line": 60,
-            "name": "View All Themes Page.",
-            "match": {
-              "location": "website_all_links.view_All_Themes_Page()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 56,
-            "name": "@4_Themes"
-          }
-        ]
-      },
-      {
-        "line": 63,
-        "name": "Icons Footer.",
-        "description": "",
-        "id": "slideteam-links;icons-footer.",
-        "after": [
-          {
-            "result": {
-              "duration": 24200,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TakeImageStep.tearDown(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 40900,
-              "status": "passed"
-            },
-            "line": 64,
-            "name": "user is already on Website Footer.",
-            "match": {
-              "location": "website_all_links.user_is_already_on_Website_Footer()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 11328105500,
-              "status": "passed"
-            },
-            "line": 65,
-            "name": "Abstract Icons Page.",
-            "match": {
-              "location": "website_all_links.abstract_Icons_Page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 9926814300,
-              "status": "passed"
-            },
-            "line": 66,
-            "name": "View All Icons Page.",
-            "match": {
-              "location": "website_all_links.view_All_Icons_Page()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 62,
-            "name": "@5_Icons"
-          }
-        ]
-      }
-    ],
-    "name": "SlideTeam Links",
+     
+    "name": "SlideGeeks Links",
     "description": "",
-    "id": "slideteam-links",
+    "id": "slidegeeks-links",
     "keyword": "Feature",
     "uri": "src/test/java/Features/WebsiteAllLinks.feature",
     "tags": [
