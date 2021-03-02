@@ -95,13 +95,13 @@ public class website_all_links extends Setup {
 
 	@Then("^user enter email and password epu$")
        public void user_enter_email_and_password_epu() throws InterruptedException  {
-    
+                Thread.sleep(5000);
 	       driver.get("https://www.slidegeeks.com/account");
-	       Thread.sleep(3000);
+	       Thread.sleep(5000);
 	       
 	        WebElement old_paid_email = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[1]/div[3]/div/div[2]/div/div/div[2]/div/form/div[1]/input")));
                old_paid_email.sendKeys("sakshi.pathania@slidetech.in");
-    
+          Thread.sleep(3000);
                WebElement old_paid_pass = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[1]/div[3]/div/div[2]/div/div/div[2]/div/form/div[2]/input")));
                old_paid_pass.sendKeys("Qwerty@1");
 	       
@@ -112,7 +112,7 @@ public class website_all_links extends Setup {
 	
 	@Then("^Home\\.$")
 	public void Home() throws Throwable {
-	    
+	          Thread.sleep(6000);
 		WebElement price = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Home')]")));
 		clear_cache();
 		Thread.sleep(3000);
