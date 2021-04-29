@@ -488,7 +488,7 @@ public class website_all_links extends Setup {
 	
 	@Then("^Terms and Contidion\\.$")
 	public void Terms_and_Contidion() throws Throwable {
-		WebElement Terms_and_Contidion= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Terms and Contidion')]")));
+		WebElement Terms_and_Contidion= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[1]/footer/div/div[2]/div[5]/div/nav/ul/li[4]/a")));
 		clear_cache();
 		Thread.sleep(3000);
 		js.executeScript("arguments[0].scrollIntoView();",Terms_and_Contidion);
