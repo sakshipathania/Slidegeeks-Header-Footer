@@ -65,7 +65,7 @@
             "line": 10,
             "name": "Pricing Page.",
             "match": {
-              "location": "website_all_links.Pricing_Page()"
+              "location": "website_all_links.Pricing Page()"
             },
             "keyword": "Then "
           },
@@ -75,9 +75,9 @@
               "status": "passed"
             },
             "line": 11,
-            "name": "New_Additions.",
+            "name": "New Additions.",
             "match": {
-              "location": "website_all_links.New_Additions()"
+              "location": "website_all_links.New Additions()"
             },
             "keyword": "Then "
           },
@@ -87,9 +87,9 @@
               "status": "passed"
             },
             "line": 12,
-            "name": "Most_Popular.",
+            "name": "Most Popular.",
             "match": {
-              "location": "website_all_links.Most_Popular()"
+              "location": "website_all_links.Most Popular()"
             },
             "keyword": "Then "
           },
@@ -99,9 +99,9 @@
               "status": "passed"
             },
             "line": 13,
-            "name": "Free_PPTs_Page.",
+            "name": "Free PPTs Page.",
             "match": {
-              "location": "website_all_links.Free_PPTs_Page()"
+              "location": "website_all_links.Free PPTs Page()"
             },
             "keyword": "Then "
           },
@@ -111,9 +111,9 @@
               "status": "passed"
             },
             "line": 14,
-            "name": "Visual_Search.",
+            "name": "Visual Search.",
             "match": {
-              "location": "website_all_links.Visual_Search()"
+              "location": "website_all_links.Visual Search()"
             },
             "keyword": "Then "
           },
@@ -135,9 +135,9 @@
               "status": "passed"
             },
             "line": 16,
-            "name": "Blog_Page.",
+            "name": "Blog Page.",
             "match": {
-              "location": "website_all_links.Blog_Page()"
+              "location": "website_all_links.Blog Page()"
             },
             "keyword": "Then "
           }
