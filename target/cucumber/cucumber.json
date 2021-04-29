@@ -41,7 +41,7 @@
             "line": 8,
             "name": "user enter email and password epu",
             "match": {
-              "location": "website_all_links.user enter email and password epu()"
+              "location": "website_all_links.user_enter_email_and-password_epu()"
             },
             "keyword": "Then "
           },
@@ -65,7 +65,7 @@
             "line": 10,
             "name": "Pricing Page.",
             "match": {
-              "location": "website_all_links.Pricing Page()"
+              "location": "website_all_links.Pricing_Page()"
             },
             "keyword": "Then "
           },
@@ -77,7 +77,7 @@
             "line": 11,
             "name": "New Additions.",
             "match": {
-              "location": "website_all_links.New Additions()"
+              "location": "website_all_links.New_Additions()"
             },
             "keyword": "Then "
           },
@@ -89,7 +89,7 @@
             "line": 12,
             "name": "Most Popular.",
             "match": {
-              "location": "website_all_links.Most Popular()"
+              "location": "website_all_links.Most_Popular()"
             },
             "keyword": "Then "
           },
@@ -101,7 +101,7 @@
             "line": 13,
             "name": "Free PPTs Page.",
             "match": {
-              "location": "website_all_links.Free PPTs Page()"
+              "location": "website_all_links.Free_PPTs_Page()"
             },
             "keyword": "Then "
           },
@@ -113,7 +113,7 @@
             "line": 14,
             "name": "Visual Search.",
             "match": {
-              "location": "website_all_links.Visual Search()"
+              "location": "website_all_links.Visual_Search()"
             },
             "keyword": "Then "
           },
@@ -137,7 +137,7 @@
             "line": 16,
             "name": "Blog Page.",
             "match": {
-              "location": "website_all_links.Blog Page()"
+              "location": "website_all_links.Blog_Page()"
             },
             "keyword": "Then "
           }
@@ -161,7 +161,7 @@
             "line": 18,
             "name": "Free PPT Templates.",
             "match": {
-              "location": "website_all_links.Free PPT Templates()"
+              "location": "website_all_links.Free_PPT_Templates()"
             },
             "keyword": "Then "
           }
@@ -173,7 +173,7 @@
             "line": 19,
             "name": "Agenda Slide.",
             "match": {
-              "location": "website_all_links.Agenda Slide()"
+              "location": "website_all_links.Agenda_Slide()"
             },
             "keyword": "Then "
           }
@@ -185,7 +185,7 @@
             "line": 20,
             "name": "Roadmap Slide.",
             "match": {
-              "location": "website_all_links.Roadmap Slide()"
+              "location": "website_all_links.Roadmap_Slide()"
             },
             "keyword": "Then "
           }
@@ -197,7 +197,7 @@
             "line": 21,
             "name": "Birthday PPT.",
             "match": {
-              "location": "website_all_links.Birthday PPT()"
+              "location": "website_all_links.Birthday_PPT()"
             },
             "keyword": "Then "
           }
@@ -209,7 +209,7 @@
             "line": 22,
             "name": "Powerpoint Table Template.",
             "match": {
-              "location": "website_all_links.Powerpoint Table Template()"
+              "location": "website_all_links.Powerpoint_Table_Template()"
             },
             "keyword": "Then "
           }
@@ -221,7 +221,7 @@
             "line": 23,
             "name": "Introduction Slide.",
             "match": {
-              "location": "website_all_links.Introduction Slide()"
+              "location": "website_all_links.Introduction_Slide()"
             },
             "keyword": "Then "
           }
@@ -233,7 +233,7 @@
             "line": 24,
             "name": "Conclusion Slide.",
             "match": {
-              "location": "website_all_links.Conclusion Slide()"
+              "location": "website_all_links.Conclusion_Slide()"
             },
             "keyword": "Then "
           }
@@ -245,7 +245,7 @@
             "line": 25,
             "name": "Powerpoint List Template.",
             "match": {
-              "location": "website_all_links.Powerpoint List Template()"
+              "location": "website_all_links.Powerpoint_List_Template()"
             },
             "keyword": "Then "
           }
@@ -257,7 +257,7 @@
             "line": 26,
             "name": "Self Introduction PPT.",
             "match": {
-              "location": "website_all_links.Self Introduction PPT()"
+              "location": "website_all_links.Self_Introduction_PPT()"
             },
             "keyword": "Then "
           }
@@ -269,7 +269,7 @@
             "line": 27,
             "name": "Cash Position Report.",
             "match": {
-              "location": "website_all_links.Cash Position Report()"
+              "location": "website_all_links.Cash_Position_Report()"
             },
             "keyword": "Then "
           }
@@ -281,7 +281,7 @@
             "line": 28,
             "name": "Powerpoint Award Template.",
             "match": {
-              "location": "website_all_links.Powerpoint Award Template()"
+              "location": "website_all_links.Powerpoint_Award_Template()"
             },
             "keyword": "Then "
           }
@@ -293,7 +293,7 @@
             "line": 29,
             "name": "Newspaper Template Powerpoint.",
             "match": {
-              "location": "website_all_links.Newspaper Template Powerpoint()"
+              "location": "website_all_links.Newspaper_Template_Powerpoint()"
             },
             "keyword": "Then "
           }
@@ -305,7 +305,7 @@
             "line": 30,
             "name": "Achievement Presentation.",
             "match": {
-              "location": "website_all_links.Achievement Presentation()"
+              "location": "website_all_links.Achievement_Presentation()"
             },
             "keyword": "Then "
           }
@@ -317,7 +317,7 @@
             "line": 31,
             "name": "Milestone PPT.",
             "match": {
-              "location": "website_all_links.Milestone PPT()"
+              "location": "website_all_links.Milestone_PPT()"
             },
             "keyword": "Then "
           }
@@ -329,7 +329,7 @@
             "line": 32,
             "name": "Music Powerpoint Templates.",
             "match": {
-              "location": "website_all_links.Music Powerpoint Templates()"
+              "location": "website_all_links.Music_Powerpoint_Templates()"
             },
             "keyword": "Then "
           }
@@ -341,7 +341,7 @@
             "line": 33,
             "name": "Checklist PPT.",
             "match": {
-              "location": "website_all_links.Checklist PPT()"
+              "location": "website_all_links.Checklist_PPT()"
             },
             "keyword": "Then "
           }
@@ -353,7 +353,7 @@
             "line": 34,
             "name": "About Us Page.",
             "match": {
-              "location": "website_all_links.About Us Page)"
+              "location": "website_all_links.About_Us_Page)"
             },
             "keyword": "Then "
           }
@@ -365,7 +365,7 @@
             "line": 35,
             "name": "Contact Us Page.",
             "match": {
-              "location": "website_all_links.Contact Us Page()"
+              "location": "website_all_links.Contact_Us_Page()"
             },
             "keyword": "Then "
           }
@@ -377,7 +377,7 @@
             "line": 36,
             "name": "Privacy Policy.",
             "match": {
-              "location": "website_all_links.Privacy Policy()"
+              "location": "website_all_links.Privacy_Policy()"
             },
             "keyword": "Then "
           }
@@ -389,7 +389,7 @@
             "line": 37,
             "name": "Terms and Contidion.",
             "match": {
-              "location": "website_all_links.Terms and Contidion()"
+              "location": "website_all_links.Terms_and_Contidion()"
             },
             "keyword": "Then "
           }
@@ -401,7 +401,7 @@
             "line": 38,
             "name": "FAQ Page.",
             "match": {
-              "location": "website_all_links.FAQ Page()"
+              "location": "website_all_links.FAQ_Page()"
             },
             "keyword": "Then "
           }
@@ -413,7 +413,7 @@
             "line": 39,
             "name": "Coupon Code.",
             "match": {
-              "location": "website_all_links.Coupon Code()"
+              "location": "website_all_links.Coupon_Code()"
             },
             "keyword": "Then "
           }
@@ -425,7 +425,7 @@
             "line": 40,
             "name": "Custom Design Services Page.",
             "match": {
-              "location": "website_all_links.Custom Design Services Page()"
+              "location": "website_all_links.Custom_Design_Services_Page()"
             },
             "keyword": "Then "
           }
@@ -437,7 +437,7 @@
             "line": 41,
             "name": "Research Services Page.",
             "match": {
-              "location": "website_all_links.Research Services Page()"
+              "location": "website_all_links.Research_Services_Page()"
             },
             "keyword": "Then "
           }
