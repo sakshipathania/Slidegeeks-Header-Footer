@@ -38,5 +38,5 @@ Scenario:
 	Then Terms and Contidion.
 	Then FAQ Page.
 	Then Coupon Code.
-	then Custom Design Services Page.
+	Then Custom Design Services Page.
 	Then Research Services Page.
