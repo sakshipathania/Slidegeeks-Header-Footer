@@ -1,9 +1,369 @@
 [
   {
-    "source": "^Popular Free Slides Page\\.$",
+    "source": "^Open the Website URL\\.$",
     "steps": [
       {
-        "name": "Popular Free Slides Page.",
+        "name": "Open the Website URL.",
+        "aggregatedDurations": {
+          "average": 19.4046702,
+          "median": 19.4046702
+        },
+        "durations": [
+          {
+            "duration": 19.4046702,
+            "location": "src/test/java/Features/WebsiteAllLinks.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+   {
+    "source": "^user enter email and password epu$",
+    "steps": [
+      {
+        "name": "user enter email and password epu",
+        "aggregatedDurations": {
+          "average": 19.4046702,
+          "median": 19.4046702
+        },
+        "durations": [
+          {
+            "duration": 19.4046702,
+            "location": "src/test/java/Features/WebsiteAllLinks.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+ {
+    "source": "^Home\\.$",
+    "steps": [
+      {
+        "name": "Home.",
+        "aggregatedDurations": {
+          "average": 19.4046702,
+          "median": 19.4046702
+        },
+        "durations": [
+          {
+            "duration": 19.4046702,
+            "location": "src/test/java/Features/WebsiteAllLinks.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+   {
+    "source": "^Pricing Page\\.$",
+    "steps": [
+      {
+        "name": "Pricing Page.",
+        "aggregatedDurations": {
+          "average": 19.4046702,
+          "median": 19.4046702
+        },
+        "durations": [
+          {
+            "duration": 19.4046702,
+            "location": "src/test/java/Features/WebsiteAllLinks.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+   {
+    "source": "^New Additions\\.$",
+    "steps": [
+      {
+        "name": "New Additions.",
+        "aggregatedDurations": {
+          "average": 19.4046702,
+          "median": 19.4046702
+        },
+        "durations": [
+          {
+            "duration": 19.4046702,
+            "location": "src/test/java/Features/WebsiteAllLinks.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+   {
+    "source": "^Most Popular\\.$",
+    "steps": [
+      {
+        "name": "Most Popular.",
+        "aggregatedDurations": {
+          "average": 19.4046702,
+          "median": 19.4046702
+        },
+        "durations": [
+          {
+            "duration": 19.4046702,
+            "location": "src/test/java/Features/WebsiteAllLinks.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+   {
+    "source": "^Free PPTs Page\\.$",
+    "steps": [
+      {
+        "name": "Free PPTs Page.",
+        "aggregatedDurations": {
+          "average": 19.4046702,
+          "median": 19.4046702
+        },
+        "durations": [
+          {
+            "duration": 19.4046702,
+            "location": "src/test/java/Features/WebsiteAllLinks.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+   {
+    "source": "^Visual Search\\.$",
+    "steps": [
+      {
+        "name": "Visual Search.",
+        "aggregatedDurations": {
+          "average": 19.4046702,
+          "median": 19.4046702
+        },
+        "durations": [
+          {
+            "duration": 19.4046702,
+            "location": "src/test/java/Features/WebsiteAllLinks.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+   {
+    "source": "^Discussion\\.$",
+    "steps": [
+      {
+        "name": "Discussion.",
+        "aggregatedDurations": {
+          "average": 19.4046702,
+          "median": 19.4046702
+        },
+        "durations": [
+          {
+            "duration": 19.4046702,
+            "location": "src/test/java/Features/WebsiteAllLinks.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+   {
+    "source": "^Blog Page\\.$",
+    "steps": [
+      {
+        "name": "Blog Page.",
+        "aggregatedDurations": {
+          "average": 19.4046702,
+          "median": 19.4046702
+        },
+        "durations": [
+          {
+            "duration": 19.4046702,
+            "location": "src/test/java/Features/WebsiteAllLinks.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+   {
+    "source": "^Ebooks\\.$",
+    "steps": [
+      {
+        "name": "Ebooks.",
+        "aggregatedDurations": {
+          "average": 19.4046702,
+          "median": 19.4046702
+        },
+        "durations": [
+          {
+            "duration": 19.4046702,
+            "location": "src/test/java/Features/WebsiteAllLinks.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+   {
+    "source": "^Free PPT Templates\\.$",
+    "steps": [
+      {
+        "name": "Free PPT Templates.",
+        "aggregatedDurations": {
+          "average": 19.4046702,
+          "median": 19.4046702
+        },
+        "durations": [
+          {
+            "duration": 19.4046702,
+            "location": "src/test/java/Features/WebsiteAllLinks.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Agenda Slide\\.$",
+    "steps": [
+      {
+        "name": "Agenda Slide.",
+        "aggregatedDurations": {
+          "average": 19.4046702,
+          "median": 19.4046702
+        },
+        "durations": [
+          {
+            "duration": 19.4046702,
+            "location": "src/test/java/Features/WebsiteAllLinks.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+   {
+    "source": "^Roadmap Slide\\.$",
+    "steps": [
+      {
+        "name": "Roadmap Slide.",
+        "aggregatedDurations": {
+          "average": 19.4046702,
+          "median": 19.4046702
+        },
+        "durations": [
+          {
+            "duration": 19.4046702,
+            "location": "src/test/java/Features/WebsiteAllLinks.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+   {
+    "source": "^Birthday PPT\\.$",
+    "steps": [
+      {
+        "name": "Birthday PPT.",
+        "aggregatedDurations": {
+          "average": 19.4046702,
+          "median": 19.4046702
+        },
+        "durations": [
+          {
+            "duration": 19.4046702,
+            "location": "src/test/java/Features/WebsiteAllLinks.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+   {
+    "source": "^Powerpoint Table Template\\.$",
+    "steps": [
+      {
+        "name": "Powerpoint Table Template.",
+        "aggregatedDurations": {
+          "average": 19.4046702,
+          "median": 19.4046702
+        },
+        "durations": [
+          {
+            "duration": 19.4046702,
+            "location": "src/test/java/Features/WebsiteAllLinks.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+   {
+    "source": "^Introduction Slide\\.$",
+    "steps": [
+      {
+        "name": "Introduction Slide.",
+        "aggregatedDurations": {
+          "average": 19.4046702,
+          "median": 19.4046702
+        },
+        "durations": [
+          {
+            "duration": 19.4046702,
+            "location": "src/test/java/Features/WebsiteAllLinks.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+   {
+    "source": "^Conclusion Slide\\.$",
+    "steps": [
+      {
+        "name": "Conclusion Slide.",
+        "aggregatedDurations": {
+          "average": 19.4046702,
+          "median": 19.4046702
+        },
+        "durations": [
+          {
+            "duration": 19.4046702,
+            "location": "src/test/java/Features/WebsiteAllLinks.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+   {
+    "source": "^Powerpoint List Template\\.$",
+    "steps": [
+      {
+        "name": "Powerpoint List Template.",
+        "aggregatedDurations": {
+          "average": 19.4046702,
+          "median": 19.4046702
+        },
+        "durations": [
+          {
+            "duration": 19.4046702,
+            "location": "src/test/java/Features/WebsiteAllLinks.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+   {
+    "source": "^Self Introduction PPT\\.$",
+    "steps": [
+      {
+        "name": "Self Introduction PPT.",
+        "aggregatedDurations": {
+          "average": 19.4046702,
+          "median": 19.4046702
+        },
+        "durations": [
+          {
+            "duration": 19.4046702,
+            "location": "src/test/java/Features/WebsiteAllLinks.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+   {
+    "source": "^Cash Position Report\\.$",
+    "steps": [
+      {
+        "name": "Cash Position Report.",
         "aggregatedDurations": {
           "average": 19.4046702,
           "median": 19.4046702
@@ -17,543 +377,270 @@
       }
     ]
   },
-  {
-    "source": "^View All Flat Designs Page\\.$",
+   {
+    "source": "^Powerpoint Award Template\\.$",
     "steps": [
       {
-        "name": "View All Flat Designs Page.",
+        "name": "Powerpoint Award Template.",
         "aggregatedDurations": {
-          "average": 9.9792657,
-          "median": 9.9792657
+          "average": 19.4046702,
+          "median": 19.4046702
         },
         "durations": [
           {
-            "duration": 9.9792657,
-            "location": "src/test/java/Features/WebsiteAllLinks.feature:54"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^Free Business PPTs Page\\.$",
-    "steps": [
-      {
-        "name": "Free Business PPTs Page.",
-        "aggregatedDurations": {
-          "average": 17.0990863,
-          "median": 17.0990863
-        },
-        "durations": [
-          {
-            "duration": 17.0990863,
-            "location": "src/test/java/Features/WebsiteAllLinks.feature:14"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^Template Finder Page\\.$",
-    "steps": [
-      {
-        "name": "Template Finder Page.",
-        "aggregatedDurations": {
-          "average": 20.785318,
-          "median": 20.785318
-        },
-        "durations": [
-          {
-            "duration": 22.7964456,
-            "location": "src/test/java/Features/WebsiteAllLinks.feature:15"
-          },
-          {
-            "duration": 18.7741904,
+            "duration": 19.4046702,
             "location": "src/test/java/Features/WebsiteAllLinks.feature:28"
           }
         ]
       }
     ]
-  },
-  {
-    "source": "^Terms of Use Page\\.$",
+  },{
+    "source": "^Powerpoint Award Template\\.$",
     "steps": [
       {
-        "name": "Terms of Use Page.",
+        "name": "Powerpoint Award Template.",
         "aggregatedDurations": {
-          "average": 18.4601077,
-          "median": 18.4601077
+          "average": 19.4046702,
+          "median": 19.4046702
         },
         "durations": [
           {
-            "duration": 18.4601077,
-            "location": "src/test/java/Features/WebsiteAllLinks.feature:25"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^Free PPTs Page\\.$",
-    "steps": [
-      {
-        "name": "Free PPTs Page.",
-        "aggregatedDurations": {
-          "average": 17.0367698,
-          "median": 17.0367698
-        },
-        "durations": [
-          {
-            "duration": 17.0367698,
-            "location": "src/test/java/Features/WebsiteAllLinks.feature:10"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^Site Map Page\\.$",
-    "steps": [
-      {
-        "name": "Site Map Page.",
-        "aggregatedDurations": {
-          "average": 17.1907208,
-          "median": 17.1907208
-        },
-        "durations": [
-          {
-            "duration": 17.1907208,
-            "location": "src/test/java/Features/WebsiteAllLinks.feature:22"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^Research Services Page\\.$",
-    "steps": [
-      {
-        "name": "Research Services Page.",
-        "aggregatedDurations": {
-          "average": 21.8013602,
-          "median": 21.8013602
-        },
-        "durations": [
-          {
-            "duration": 21.8013602,
+            "duration": 19.4046702,
             "location": "src/test/java/Features/WebsiteAllLinks.feature:29"
           }
         ]
       }
     ]
   },
-  {
-    "source": "^View All Test Diagram Page\\.$",
+   {
+    "source": "^Newspaper Template Powerpoint\\.$",
     "steps": [
       {
-        "name": "View All Test Diagram Page.",
+        "name": "Newspaper Template Powerpoint.",
         "aggregatedDurations": {
-          "average": 21.0152239,
-          "median": 21.0152239
+          "average": 19.4046702,
+          "median": 19.4046702
         },
         "durations": [
           {
-            "duration": 21.0152239,
-            "location": "src/test/java/Features/WebsiteAllLinks.feature:42"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^Check Ebooks Page\\.$",
-    "steps": [
-      {
-        "name": "Check Ebooks Page.",
-        "aggregatedDurations": {
-          "average": 17.5615631,
-          "median": 17.5615631
-        },
-        "durations": [
-          {
-            "duration": 17.5615631,
-            "location": "src/test/java/Features/WebsiteAllLinks.feature:8"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^How it Works page\\.$",
-    "steps": [
-      {
-        "name": "How it Works page.",
-        "aggregatedDurations": {
-          "average": 19.3896725,
-          "median": 19.3896725
-        },
-        "durations": [
-          {
-            "duration": 19.3896725,
-            "location": "src/test/java/Features/WebsiteAllLinks.feature:21"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^Google Slides Page\\.$",
-    "steps": [
-      {
-        "name": "Google Slides Page.",
-        "aggregatedDurations": {
-          "average": 23.3538837,
-          "median": 23.3538837
-        },
-        "durations": [
-          {
-            "duration": 23.3538837,
+            "duration": 19.4046702,
             "location": "src/test/java/Features/WebsiteAllLinks.feature:30"
           }
         ]
       }
     ]
   },
-  {
-    "source": "^About Us Company Details Business Details Page\\.$",
+   {
+    "source": "^Achievement Presentation\\.$",
     "steps": [
       {
-        "name": "About Us Company Details Business Details Page.",
+        "name": "Achievement Presentation.",
         "aggregatedDurations": {
-          "average": 22.2138982,
-          "median": 22.2138982
+          "average": 19.4046702,
+          "median": 19.4046702
         },
         "durations": [
           {
-            "duration": 22.2138982,
-            "location": "src/test/java/Features/WebsiteAllLinks.feature:47"
+            "duration": 19.4046702,
+            "location": "src/test/java/Features/WebsiteAllLinks.feature:31"
           }
         ]
       }
     ]
   },
-  {
-    "source": "^Pricing Page\\.$",
+   {
+    "source": "^Milestone PPT\\.$",
     "steps": [
       {
-        "name": "Pricing Page.",
+        "name": "Milestone PPT.",
         "aggregatedDurations": {
-          "average": 17.6566966,
-          "median": 17.6566966
+          "average": 19.4046702,
+          "median": 19.4046702
         },
         "durations": [
           {
-            "duration": 17.6566966,
-            "location": "src/test/java/Features/WebsiteAllLinks.feature:9"
+            "duration": 19.4046702,
+            "location": "src/test/java/Features/WebsiteAllLinks.feature:32"
           }
         ]
       }
     ]
   },
-  {
-    "source": "^Advertising Test Diagram Page\\.$",
+   {
+    "source": "^Music Powerpoint Templates\\.$",
     "steps": [
       {
-        "name": "Advertising Test Diagram Page.",
+        "name": "Music Powerpoint Templates.",
         "aggregatedDurations": {
-          "average": 22.4769316,
-          "median": 22.4769316
+          "average": 19.4046702,
+          "median": 19.4046702
         },
         "durations": [
           {
-            "duration": 22.4769316,
+            "duration": 19.4046702,
+            "location": "src/test/java/Features/WebsiteAllLinks.feature:33"
+          }
+        ]
+      }
+    ]
+  },
+   {
+    "source": "^Checklist PPT\\.$",
+    "steps": [
+      {
+        "name": "Checklist PPT.",
+        "aggregatedDurations": {
+          "average": 19.4046702,
+          "median": 19.4046702
+        },
+        "durations": [
+          {
+            "duration": 19.4046702,
+            "location": "src/test/java/Features/WebsiteAllLinks.feature:34"
+          }
+        ]
+      }
+    ]
+  },
+   {
+    "source": "^About Us Page\\.$",
+    "steps": [
+      {
+        "name": "About Us Page.",
+        "aggregatedDurations": {
+          "average": 19.4046702,
+          "median": 19.4046702
+        },
+        "durations": [
+          {
+            "duration": 19.4046702,
+            "location": "src/test/java/Features/WebsiteAllLinks.feature:35"
+          }
+        ]
+      }
+    ]
+  },
+   {
+    "source": "^Contact Us Page\\.$",
+    "steps": [
+      {
+        "name": "Contact Us Page.",
+        "aggregatedDurations": {
+          "average": 19.4046702,
+          "median": 19.4046702
+        },
+        "durations": [
+          {
+            "duration": 19.4046702,
+            "location": "src/test/java/Features/WebsiteAllLinks.feature:36"
+          }
+        ]
+      }
+    ]
+  },
+   {
+    "source": "^Privacy Policy Page\\.$",
+    "steps": [
+      {
+        "name": "Privacy Policy Page.",
+        "aggregatedDurations": {
+          "average": 19.4046702,
+          "median": 19.4046702
+        },
+        "durations": [
+          {
+            "duration": 19.4046702,
+            "location": "src/test/java/Features/WebsiteAllLinks.feature:37"
+          }
+        ]
+      }
+    ]
+  },
+   {
+    "source": "^Terms and Contidion\\.$",
+    "steps": [
+      {
+        "name": "Terms and Contidion.",
+        "aggregatedDurations": {
+          "average": 19.4046702,
+          "median": 19.4046702
+        },
+        "durations": [
+          {
+            "duration": 19.4046702,
+            "location": "src/test/java/Features/WebsiteAllLinks.feature:38"
+          }
+        ]
+      }
+    ]
+  },
+   {
+    "source": "^FAQ Page\\.$",
+    "steps": [
+      {
+        "name": "FAQ Page.",
+        "aggregatedDurations": {
+          "average": 19.4046702,
+          "median": 19.4046702
+        },
+        "durations": [
+          {
+            "duration": 19.4046702,
+            "location": "src/test/java/Features/WebsiteAllLinks.feature:39"
+          }
+        ]
+      }
+    ]
+  },
+   {
+    "source": "^Coupon Code\\.$",
+    "steps": [
+      {
+        "name": "Coupon Code.",
+        "aggregatedDurations": {
+          "average": 19.4046702,
+          "median": 19.4046702
+        },
+        "durations": [
+          {
+            "duration": 19.4046702,
+            "location": "src/test/java/Features/WebsiteAllLinks.feature:40"
+          }
+        ]
+      }
+    ]
+  },
+   {
+    "source": "^Custom Design Services Page\\.$",
+    "steps": [
+      {
+        "name": "Custom Design Services Page.",
+        "aggregatedDurations": {
+          "average": 19.4046702,
+          "median": 19.4046702
+        },
+        "durations": [
+          {
+            "duration": 19.4046702,
             "location": "src/test/java/Features/WebsiteAllLinks.feature:41"
           }
         ]
       }
     ]
   },
-  {
-    "source": "^Abstract Icons Page\\.$",
+   {
+    "source": "^Research Services Page\\.$",
     "steps": [
       {
-        "name": "Abstract Icons Page.",
+        "name": "Research Services Page.",
         "aggregatedDurations": {
-          "average": 11.3281055,
-          "median": 11.3281055
+          "average": 19.4046702,
+          "median": 19.4046702
         },
         "durations": [
           {
-            "duration": 11.3281055,
-            "location": "src/test/java/Features/WebsiteAllLinks.feature:65"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^View All Icons Page\\.$",
-    "steps": [
-      {
-        "name": "View All Icons Page.",
-        "aggregatedDurations": {
-          "average": 9.9268143,
-          "median": 9.9268143
-        },
-        "durations": [
-          {
-            "duration": 9.9268143,
-            "location": "src/test/java/Features/WebsiteAllLinks.feature:66"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^Open the Website URL\\.$",
-    "steps": [
-      {
-        "name": "Open the Website URL.",
-        "aggregatedDurations": {
-          "average": 23.5179653,
-          "median": 23.5179653
-        },
-        "durations": [
-          {
-            "duration": 23.5179653,
-            "location": "src/test/java/Features/WebsiteAllLinks.feature:7"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^Abstract Themes Page\\.$",
-    "steps": [
-      {
-        "name": "Abstract Themes Page.",
-        "aggregatedDurations": {
-          "average": 10.8131885,
-          "median": 10.8131885
-        },
-        "durations": [
-          {
-            "duration": 10.8131885,
-            "location": "src/test/java/Features/WebsiteAllLinks.feature:59"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^Most Downloaded Page\\.$",
-    "steps": [
-      {
-        "name": "Most Downloaded Page.",
-        "aggregatedDurations": {
-          "average": 18.0170566,
-          "median": 18.0170566
-        },
-        "durations": [
-          {
-            "duration": 18.0170566,
-            "location": "src/test/java/Features/WebsiteAllLinks.feature:11"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^Arrows and Targets Flat Designs Page\\.$",
-    "steps": [
-      {
-        "name": "Arrows and Targets Flat Designs Page.",
-        "aggregatedDurations": {
-          "average": 10.1869505,
-          "median": 10.1869505
-        },
-        "durations": [
-          {
-            "duration": 10.1869505,
-            "location": "src/test/java/Features/WebsiteAllLinks.feature:53"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^Newly Added Page\\.$",
-    "steps": [
-      {
-        "name": "Newly Added Page.",
-        "aggregatedDurations": {
-          "average": 17.7885397,
-          "median": 17.7885397
-        },
-        "durations": [
-          {
-            "duration": 17.7885397,
-            "location": "src/test/java/Features/WebsiteAllLinks.feature:12"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^View All Themes Page\\.$",
-    "steps": [
-      {
-        "name": "View All Themes Page.",
-        "aggregatedDurations": {
-          "average": 10.6794738,
-          "median": 10.6794738
-        },
-        "durations": [
-          {
-            "duration": 10.6794738,
-            "location": "src/test/java/Features/WebsiteAllLinks.feature:60"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^About Us Page\\.$",
-    "steps": [
-      {
-        "name": "About Us Page.",
-        "aggregatedDurations": {
-          "average": 18.455324,
-          "median": 18.455324
-        },
-        "durations": [
-          {
-            "duration": 18.455324,
-            "location": "src/test/java/Features/WebsiteAllLinks.feature:20"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^View All Business Slides Page\\.$",
-    "steps": [
-      {
-        "name": "View All Business Slides Page.",
-        "aggregatedDurations": {
-          "average": 18.9535165,
-          "median": 18.9535165
-        },
-        "durations": [
-          {
-            "duration": 18.9535165,
-            "location": "src/test/java/Features/WebsiteAllLinks.feature:48"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^FAQ Page\\.$",
-    "steps": [
-      {
-        "name": "FAQ Page.",
-        "aggregatedDurations": {
-          "average": 18.4436866,
-          "median": 18.4436866
-        },
-        "durations": [
-          {
-            "duration": 18.4436866,
-            "location": "src/test/java/Features/WebsiteAllLinks.feature:24"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^user is already on Website Footer\\.$",
-    "steps": [
-      {
-        "name": "user is already on Website Footer.",
-        "aggregatedDurations": {
-          "average": 0.00004124,
-          "median": 0.0000409
-        },
-        "durations": [
-          {
-            "duration": 0.0000444,
-            "location": "src/test/java/Features/WebsiteAllLinks.feature:40"
-          },
-          {
-            "duration": 0.0000398,
-            "location": "src/test/java/Features/WebsiteAllLinks.feature:46"
-          },
-          {
-            "duration": 0.0000462,
-            "location": "src/test/java/Features/WebsiteAllLinks.feature:52"
-          },
-          {
-            "duration": 0.0000349,
-            "location": "src/test/java/Features/WebsiteAllLinks.feature:58"
-          },
-          {
-            "duration": 0.0000409,
-            "location": "src/test/java/Features/WebsiteAllLinks.feature:64"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^Blog Page\\.$",
-    "steps": [
-      {
-        "name": "Blog Page.",
-        "aggregatedDurations": {
-          "average": 19.0227164,
-          "median": 19.0227164
-        },
-        "durations": [
-          {
-            "duration": 19.0227164,
-            "location": "src/test/java/Features/WebsiteAllLinks.feature:13"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^Contact Us Page\\.$",
-    "steps": [
-      {
-        "name": "Contact Us Page.",
-        "aggregatedDurations": {
-          "average": 16.793745,
-          "median": 16.793745
-        },
-        "durations": [
-          {
-            "duration": 16.793745,
-            "location": "src/test/java/Features/WebsiteAllLinks.feature:23"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^Privacy Policy Page\\.$",
-    "steps": [
-      {
-        "name": "Privacy Policy Page.",
-        "aggregatedDurations": {
-          "average": 19.2489965,
-          "median": 19.2489965
-        },
-        "durations": [
-          {
-            "duration": 19.2489965,
-            "location": "src/test/java/Features/WebsiteAllLinks.feature:26"
+            "duration": 19.4046702,
+            "location": "src/test/java/Features/WebsiteAllLinks.feature:42"
           }
         ]
       }
