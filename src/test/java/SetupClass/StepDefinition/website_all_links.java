@@ -469,7 +469,31 @@ public class website_all_links extends Setup {
 
 
 	@Then("^Contact Us Page\\.$")
-	public void contact_Us_Page() throws Throwable {
+	public void Contact_Us_Page() throws Throwable {
+		
+		try {
+			WebElement iframe = driver.findElement(By.id("livechat-full-view"));
+			if(iframe.isDisplayed()) {
+				driver.switchTo().frame(iframe);   
+				 Actions act = new Actions(driver);
+				 act.moveToElement(driver.findElement(By.cssSelector("#title .icon-minimize"))).build().perform();
+				 Thread.sleep(2000);
+					WebElement chat1=driver.findElement(By.cssSelector("#title .icon-minimize"));
+					 Thread.sleep(1000);
+						chat1.click();
+						 Thread.sleep(1000);
+						 driver.switchTo().defaultContent();
+						 Thread.sleep(1000);
+						 driver.switchTo().parentFrame();
+					 Thread.sleep(1000);
+			}
+			else {
+					System.out.println("chat window does not open");
+			     }
+		}
+				catch(NoSuchElementException NCP) {
+					
+				}
 		WebElement contact_us_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Contact Us')]")));
 		clear_cache();
 		Thread.sleep(3000);
