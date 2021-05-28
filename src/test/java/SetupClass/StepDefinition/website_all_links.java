@@ -475,7 +475,7 @@ public class website_all_links extends Setup {
 	
 	@Then("^Privacy Policy\\.$")
 	public void Privacy_Policy() throws Throwable {
-		WebElement Privacy_Policy= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Pricing Policy')]")));
+		WebElement Privacy_Policy= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Privacy Policy')]")));
 		clear_cache();
 		Thread.sleep(3000);
 		js.executeScript("arguments[0].scrollIntoView();",Privacy_Policy);
