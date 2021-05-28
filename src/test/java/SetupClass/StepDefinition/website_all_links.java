@@ -461,8 +461,8 @@ public class website_all_links extends Setup {
 
 
 	@Then("^Contact Us Page\\.$")
-	public void contact_Us_Page() throws Throwable {
-		WebElement contact_us_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[1]/footer/div/div[2]/div[5]/div/nav/ul/li[2]/a")));
+	public void Contact_Us_Page() throws Throwable {
+		WebElement contact_us_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Contact Us')]")));
 		clear_cache();
 		Thread.sleep(3000);
 		js.executeScript("arguments[0].scrollIntoView();",contact_us_footer);
@@ -475,7 +475,7 @@ public class website_all_links extends Setup {
 	
 	@Then("^Privacy Policy\\.$")
 	public void Privacy_Policy() throws Throwable {
-		WebElement Privacy_Policy= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[1]/footer/div/div[2]/div[5]/div/nav/ul/li[3]/a")));
+		WebElement Privacy_Policy= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Pricing Policy')]")));
 		clear_cache();
 		Thread.sleep(3000);
 		js.executeScript("arguments[0].scrollIntoView();",Privacy_Policy);
@@ -488,7 +488,7 @@ public class website_all_links extends Setup {
 	
 	@Then("^Terms and Contidion\\.$")
 	public void Terms_and_Contidion() throws Throwable {
-		WebElement Terms_and_Contidion= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[1]/footer/div/div[2]/div[5]/div/nav/ul/li[4]/a")));
+		WebElement Terms_and_Contidion= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Terms and Condition')]")));
 		clear_cache();
 		Thread.sleep(3000);
 		js.executeScript("arguments[0].scrollIntoView();",Terms_and_Contidion);
