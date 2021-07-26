@@ -6,7 +6,6 @@ Scenario:
 
 	Given Open the Website URL.
 	Then user enter email and password epu
-	Then Home.
 	Then Pricing Page.
 	Then New Additions.
 	Then Most Popular.
