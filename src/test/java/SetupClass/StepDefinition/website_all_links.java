@@ -110,19 +110,6 @@ public class website_all_links extends Setup {
 	       old_paid_login_btn.click();
         }
 	
-	@Then("^Home\\.$")
-	public void Home() throws Throwable {
-	          Thread.sleep(6000);
-		WebElement price = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Home')]")));
-		clear_cache();
-		Thread.sleep(3000);
-		price.click();
-		log.info("HOME");
-		Thread.sleep(3000);
-		chat_pop_up();
-		err_page();
-		
-	}
 	
 	
 	@Then("^Pricing Page\\.$")
