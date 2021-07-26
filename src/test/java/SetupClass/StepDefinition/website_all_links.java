@@ -220,7 +220,7 @@ public class website_all_links extends Setup {
 		
 	@Then("^Ebooks\\.$")
 	public void Ebooks() throws Throwable {	
-		WebElement eBooks = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#header_menu > ul > li:nth-child(9) > a")));
+		WebElement eBooks = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("//a[@class='ebook-top-menunav-link'][contains(.,'Ebooks')]")));
 		clear_cache();
 		Thread.sleep(3000);
 		eBooks.click();
