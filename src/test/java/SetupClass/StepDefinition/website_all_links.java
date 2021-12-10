@@ -113,13 +113,13 @@ public class website_all_links extends Setup {
 	@Then("^Pricing Page\\.$")
 	public void Pricing_Page() throws Throwable {
 	    
-		WebElement price = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Pricing')]")));
-		clear_cache();
+		WebElement price = wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Pricing")));
+		//clear_cache();
 		Thread.sleep(3000);
 		price.click();
 		log.info("PRICING");
 		Thread.sleep(3000);
-		chat_pop_up();
+		//chat_pop_up();
 		err_page();
 		
 	}
@@ -128,12 +128,12 @@ public class website_all_links extends Setup {
 	public void New_Additions() throws Throwable {
 	    
 		WebElement price = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'New Additions')]")));
-		clear_cache();
+		//clear_cache();
 		Thread.sleep(3000);
 		price.click();
 		log.info("NEW ADDITIONS");
 		Thread.sleep(3000);
-		chat_pop_up();
+		//chat_pop_up();
 		err_page();
 		
 	}
@@ -142,12 +142,12 @@ public class website_all_links extends Setup {
 	public void Most_Popular() throws Throwable {
 	    
 		WebElement price = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Most Popular')]")));
-		clear_cache();
+		//clear_cache();
 		Thread.sleep(3000);
 		price.click();
 		log.info("MOAT POPULAR");
 		Thread.sleep(3000);
-		chat_pop_up();
+		//chat_pop_up();
 		err_page();
 		
 	}
@@ -156,7 +156,7 @@ public class website_all_links extends Setup {
 	public void Free_PPTs_Page() throws Throwable {
 	    
 		WebElement free_ppt = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Free Slides')]")));
-		clear_cache();
+		//clear_cache();
 		Thread.sleep(3000);
 		free_ppt.click();
 		log.info("FREE SLIDES");
@@ -179,7 +179,7 @@ public class website_all_links extends Setup {
 	@Then("^Visual Search\\.$")
 	public void Visual_Search() throws Throwable {
 		WebElement visual_search= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Visual Search')]")));
-		clear_cache();
+		//clear_cache();
 		Thread.sleep(3000);
 		js.executeScript("arguments[0].scrollIntoView();",visual_search);
 		visual_search.click();
@@ -192,7 +192,7 @@ public class website_all_links extends Setup {
          @Then("^Discussion\\.$")
 	public void Discussion() throws Throwable {
 		WebElement Discussion= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='discussions-top-menu-itemnav-link'][contains(.,'Discussion')]")));
-		clear_cache();
+		//clear_cache();
 		Thread.sleep(3000);
 		js.executeScript("arguments[0].scrollIntoView();",Discussion);
 		Discussion.click();
@@ -207,7 +207,7 @@ public class website_all_links extends Setup {
 	@Then("^Blog Page\\.$")
 	public void Blog_Page() throws Throwable {
 		WebElement blog_page = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='blog-top-menunav-link'][contains(.,'Blog')]")));
-		clear_cache();
+		//clear_cache();
 		Thread.sleep(3000);
 		blog_page.click();
 		log.info("BLOG");
@@ -219,7 +219,7 @@ public class website_all_links extends Setup {
 	@Then("^Ebooks\\.$")
 	public void Ebooks() throws Throwable {	
 		WebElement eBooks = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='ebook-top-menunav-link'][contains(.,'Ebooks')]")));
-		clear_cache();
+		//clear_cache();
 		Thread.sleep(3000);
 		eBooks.click();
 		log.info("EBOOKS");
@@ -232,7 +232,7 @@ public class website_all_links extends Setup {
 	@Then("^Free PPT Templates\\.$")
 	public void Free_PPT_Templates() throws Throwable {
 		WebElement Free_PPT_Templates = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Free PPT Templates')]")));
-		clear_cache();
+		//clear_cache();
 		Thread.sleep(3000);
 		Free_PPT_Templates.click();
 		log.info("FREE PPT TEMPLATES");
@@ -244,7 +244,7 @@ public class website_all_links extends Setup {
 	@Then("^Agenda Slide\\.$")
 	public void Agenda_Slide() throws Throwable {
 		WebElement Agenda_Slide = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Agenda Slide')]")));
-		clear_cache();
+		//clear_cache();
 		Thread.sleep(3000);
 		Free_PPT_Templates.click();
 		log.info("AGENDA SLIDE");
@@ -256,7 +256,7 @@ public class website_all_links extends Setup {
 	@Then("^Roadmap Slide\\.$")
 	public void Roadmap_Slide() throws Throwable {
 		WebElement Roadmap_Slide = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Roadmap Slide')]")));
-		clear_cache();
+		//clear_cache();
 		Thread.sleep(3000);
 		Roadmap_Slide.click();
 		log.info("ROADMAP SLIDE");
@@ -268,7 +268,7 @@ public class website_all_links extends Setup {
 	@Then("^Birthday PPT\\.$")
 	public void Birthday_PPT() throws Throwable {
 		WebElement Birthday_PPT = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Birthday PPT')]")));
-		clear_cache();
+		//clear_cache();
 		Thread.sleep(3000);
 		Birthday_PPT.click();
 		log.info("BIRTHDAY PPT");
@@ -280,7 +280,7 @@ public class website_all_links extends Setup {
 	@Then("^Powerpoint Table Template\\.$")
 	public void Powerpoint_Table_Template() throws Throwable {
 		WebElement Powerpoint_Table_Template = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Powerpoint Table Template')]")));
-		clear_cache();
+		//clear_cache();
 		Thread.sleep(3000);
 		Powerpoint_Table_Template.click();
 		log.info("POWERPOINT TABLE TEMPLATE");
@@ -293,7 +293,7 @@ public class website_all_links extends Setup {
 	@Then("^Introduction Slide\\.$")
 	public void Introduction_Slide() throws Throwable {
 		WebElement Powerpoint_Table_Template = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Introduction Slide')]")));
-		clear_cache();
+		//clear_cache();
 		Thread.sleep(3000);
 		Introduction_Slide.click();
 		log.info("INTRODUCTION SLIDE");
@@ -306,7 +306,7 @@ public class website_all_links extends Setup {
 	@Then("^Conclusion Slide\\.$")
 	public void Conclusion_Slide() throws Throwable {
 		WebElement Conclusion_Slide= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Conclusion Slide')]")));
-		clear_cache();
+		//clear_cache();
 		Thread.sleep(3000);
 		Conclusion_Slide.click();
 		log.info("CONCLUSION SLIDE");
@@ -318,7 +318,7 @@ public class website_all_links extends Setup {
 	@Then("^Powerpoint List Template\\.$")
 	public void Powerpoint_List_Template() throws Throwable {
 		WebElement Powerpoint_List_Template= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Powerpoint List Template')]")));
-		clear_cache();
+		//clear_cache();
 		Thread.sleep(3000);
 		Powerpoint_List_Template.click();
 		log.info("POWERPOINT LIST TEMPLATE");
@@ -331,7 +331,7 @@ public class website_all_links extends Setup {
 	@Then("^Self Introduction PPT\\.$")
 	public void Self_Introduction_PPT() throws Throwable {
 		WebElement Powerpoint_List_Template= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Self Introduction PPT')]")));
-		clear_cache();
+		//clear_cache();
 		Thread.sleep(3000);
 		Self_Introduction_PPT.click();
 		log.info("SELF INTRODUCTION PPT");
@@ -344,7 +344,7 @@ public class website_all_links extends Setup {
 	@Then("^Cash Position Report\\.$")
 	public void Cash_Position_Report() throws Throwable {
 		WebElement Cash_Position_Report= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Cash Position Report')]")));
-		clear_cache();
+		//clear_cache();
 		Thread.sleep(3000);
 		Cash_Position_Report.click();
 		log.info("CASH POSITION REPORT");
@@ -356,7 +356,7 @@ public class website_all_links extends Setup {
 	@Then("^Powerpoint Award Template\\.$")
 	public void Powerpoint_Award_Template() throws Throwable {
 		WebElement Powerpoint_Award_Template= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Powerpoint Award Template')]")));
-		clear_cache();
+		//clear_cache();
 		Thread.sleep(3000);
 		Powerpoint_Award_Template.click();
 		log.info("POWERPOINT AWARD TEMPLATE");
@@ -368,7 +368,7 @@ public class website_all_links extends Setup {
 	@Then("^Powerpoint Award Template\\.$")
 	public void Powerpoint_Award_Template() throws Throwable {
 		WebElement Powerpoint_Award_Template= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Powerpoint Award Template')]")));
-		clear_cache();
+	//	clear_cache();
 		Thread.sleep(3000);
 		Powerpoint_Award_Template.click();
 		log.info("POWERPOINT AWARD TEMPLATE");
@@ -380,7 +380,7 @@ public class website_all_links extends Setup {
 	@Then("^Newspaper Template Powerpoint\\.$")
 	public void Newspaper_Template_Powerpoint() throws Throwable {
 		WebElement Newspaper_Template_Powerpoint= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Newspaper Template Powerpoint')]")));
-		clear_cache();
+		//clear_cache();
 		Thread.sleep(3000);
 		Newspaper_Template_Powerpoint.click();
 		log.info("NEWSPAPER TEMPLATE POWERPOINT");
@@ -392,7 +392,7 @@ public class website_all_links extends Setup {
 	@Then("^Achievement Presentation\\.$")
 	public void Achievement_Presentation() throws Throwable {
 		WebElement Achievement_Presentation= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Achievement Presentation')]")));
-		clear_cache();
+		//clear_cache();
 		Thread.sleep(3000);
 		Achievement_Presentation.click();
 		log.info("ACHIEVEMENT PRESENTATION");
@@ -404,7 +404,7 @@ public class website_all_links extends Setup {
 	@Then("^Milestone PPT\\.$")
 	public void Milestone_PPT() throws Throwable {
 		WebElement Milestone_PPT= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Milestone PPT')]")));
-		clear_cache();
+		//clear_cache();
 		Thread.sleep(3000);
 		Milestone_PPT.click();
 		log.info("MILESTONE PPT");
@@ -417,7 +417,7 @@ public class website_all_links extends Setup {
 	@Then("^Music Powerpoint Templates\\.$")
 	public void Music_Powerpoint_Templates() throws Throwable {
 		WebElement Music_Powerpoint_Templates= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Music Powerpoint Templates')]")));
-		clear_cache();
+		//clear_cache();
 		Thread.sleep(3000);
 		Music_Powerpoint_Templates.click();
 		log.info("MUSIC POWERPOINT TEMPLATES");
@@ -429,7 +429,7 @@ public class website_all_links extends Setup {
 	@Then("^Checklist PPT\\.$")
 	public void Checklist_PPT() throws Throwable {
 		WebElement Checklist_PPT= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Checklist PPT')]")));
-		clear_cache();
+		//clear_cache();
 		Thread.sleep(3000);
 		Checklist_PPT.click();
 		log.info("CHECKLIST PPT");
@@ -442,7 +442,7 @@ public class website_all_links extends Setup {
 	public void about_Us_Page() throws Throwable {
 		try {
 		WebElement about_us_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'About Us')]")));
-		clear_cache();
+		//clear_cache();
 		Thread.sleep(3000);
 		js.executeScript("arguments[0].scrollIntoView();",about_us_footer);
 		about_us_footer.click();
@@ -483,7 +483,7 @@ public class website_all_links extends Setup {
 					
 				}
 		WebElement contact_us_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Contact Us')]")));
-		clear_cache();
+		//clear_cache();
 		Thread.sleep(3000);
 		js.executeScript("arguments[0].scrollIntoView();",contact_us_footer);
 		contact_us_footer.click();
@@ -496,7 +496,7 @@ public class website_all_links extends Setup {
 	@Then("^Privacy Policy\\.$")
 	public void Privacy_Policy() throws Throwable {
 		WebElement Privacy_Policy= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Privacy Policy')]")));
-		clear_cache();
+		//clear_cache();
 		Thread.sleep(3000);
 		js.executeScript("arguments[0].scrollIntoView();",Privacy_Policy);
 		Privacy_Policy.click();
@@ -509,7 +509,7 @@ public class website_all_links extends Setup {
 	@Then("^Terms and Contidion\\.$")
 	public void Terms_and_Contidion() throws Throwable {
 		WebElement Terms_and_Contidion= driver.findElement(By.xpath("/html/body/div[1]/footer/div/div[2]/div[5]/div/nav/ul/li[4]/a")));
-		clear_cache();
+		//clear_cache();
 		Thread.sleep(3000);
 		js.executeScript("arguments[0].scrollIntoView();",Terms_and_Contidion);
 		Terms_and_Contidion.click();
@@ -522,7 +522,7 @@ public class website_all_links extends Setup {
 	@Then("^FAQ Page\\.$")
 	public void faq_Page() throws Throwable {
 		WebElement faq_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'FAQ')]")));
-		clear_cache();
+	//	clear_cache();
 		Thread.sleep(3000);
 		js.executeScript("arguments[0].scrollIntoView();",faq_footer);
 		faq_footer.click();
@@ -539,7 +539,7 @@ public class website_all_links extends Setup {
 	public void Coupon_Code() throws Throwable {
 		WebElement CC_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Coupon Code')]")));
 		Thread.sleep(3000);
-		clear_cache();
+		//clear_cache();
 		js.executeScript("arguments[0].scrollIntoView();",CC_footer);
 		CC_footer.click();
 		log.info("FOOTER --> COUPON CODE");
@@ -553,7 +553,7 @@ public class website_all_links extends Setup {
 	public void Custom_Design_Services_Page() throws Throwable {
 		WebElement cds_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Design Services')]")));
 		Thread.sleep(3000);
-		clear_cache();
+	//	clear_cache();
 		js.executeScript("arguments[0].scrollIntoView();",cds_footer);
 		cds_footer.click();
 		log.info("FOOTER --> CUSTOM DESIGN SERVICES");
