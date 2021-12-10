@@ -114,8 +114,8 @@ public class website_all_links extends Setup {
 	
 	@Then("^Pricing Page\\.$")
 	public void Pricing_Page() throws Throwable {
-	    
-		WebElement price =  wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Pricing")));
+	         Thread.sleep(4000);
+		WebElement price = wait.until(ExpectedConditions.elementToBeClickable(By.linkText("PRICING")));
 		//clear_cache();
 		Thread.sleep(3000);
 		price.click();
