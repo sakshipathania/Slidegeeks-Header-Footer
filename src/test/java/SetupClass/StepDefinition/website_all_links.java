@@ -449,7 +449,7 @@ public class website_all_links extends Setup {
 
 	@Then("^Contact Us Page\\.$")
 	public void Contact_Us_Page() throws Throwable {
-		WebElement contact_us_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Contact Us')]")));
+		WebElement contact_us_footer= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[normalize-space()='Contact us']")));
 		//clear_cache();
 		Thread.sleep(3000);
 		js.executeScript("arguments[0].scrollIntoView();",contact_us_footer);
