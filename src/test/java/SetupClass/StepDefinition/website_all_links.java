@@ -206,7 +206,7 @@ public class website_all_links extends Setup {
 
 	@Then("^Blog Page\\.$")
 	public void Blog_Page() throws Throwable {
-		WebElement blog_page = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='blog-top-menunav-link'][contains(.,'Blog')]")));
+		WebElement blog_page = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='blog-top-menu nav-link']")));
 		//clear_cache();
 		Thread.sleep(3000);
 		blog_page.click();
@@ -218,7 +218,7 @@ public class website_all_links extends Setup {
 		
 	@Then("^Ebooks\\.$")
 	public void Ebooks() throws Throwable {	
-		WebElement eBooks = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='ebook-top-menunav-link'][contains(.,'Ebooks')]")));
+		WebElement eBooks = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[normalize-space()='Ebooks']")));
 		//clear_cache();
 		Thread.sleep(3000);
 		eBooks.click();
