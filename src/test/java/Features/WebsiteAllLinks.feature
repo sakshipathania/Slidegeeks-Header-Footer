@@ -24,7 +24,7 @@ Scenario:
 	Then Powerpoint List Template.
 	Then Self Introduction PPT.
 	Then Cash Position Report.
-	Then Powerpoint Award Template.
+	Then Powerpoint Award Templates.
 	Then Powerpoint Award Template.
 	Then Newspaper Template Powerpoint.
 	Then Achievement Presentation.
