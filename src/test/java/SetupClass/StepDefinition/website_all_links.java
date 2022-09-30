@@ -20,9 +20,11 @@ public class website_all_links extends Setup {
 	JavascriptExecutor js = (JavascriptExecutor) driver;
 
 	public void clear_cache() throws InterruptedException {
-		driver.manage().deleteAllCookies();
-		Thread.sleep(4200);
-		log.info("DELETE COOKIES");
+		/*
+		 * driver.manage().deleteAllCookies(); Thread.sleep(4200);
+		 * log.info("DELETE COOKIES");
+		 */
+		driver.get(AppURL);
 	}
 
 	public void err_page() throws InterruptedException {
@@ -70,10 +72,7 @@ public class website_all_links extends Setup {
 		log.info("It's opening the website URL");
 		Thread.sleep(1000);
 		driver.get("https://www.slidegeeks.com");
-		Thread.sleep(2000);
-		driver.get("https://www.slidegeeks.com");
-		Thread.sleep(2000);
-		driver.manage().deleteAllCookies();
+		
 		Thread.sleep(2000);
 		try {
 			driver.findElement(By.cssSelector(".authorization-link > a:nth-child(1)")).click();
