@@ -72,7 +72,7 @@ public class website_all_links extends Setup {
 		log.info("It's opening the website URL");
 		Thread.sleep(1000);
 		driver.get("https://www.slidegeeks.com");
-		
+
 		Thread.sleep(2000);
 		try {
 			driver.findElement(By.cssSelector(".authorization-link > a:nth-child(1)")).click();
@@ -491,7 +491,7 @@ public class website_all_links extends Setup {
 
 		}
 		WebElement contact_us_footer = wait.until(
-				ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Contact Us')]")));
+				ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='nav-link'][contains(.,'Contact us')]")));
 		// clear_cache();
 		Thread.sleep(3000);
 		js.executeScript("arguments[0].scrollIntoView();", contact_us_footer);
@@ -518,10 +518,11 @@ public class website_all_links extends Setup {
 
 	@Then("^Terms and Contidion\\.$")
 	public void Terms_and_Contidion() throws Throwable {
-		WebElement Terms_and_Contidion= driver.findElement(By.xpath("/html/body/div[1]/footer/div/div[2]/div[5]/div/nav/ul/li[4]/a"));
-		//clear_cache();
+		WebElement Terms_and_Contidion = wait.until(
+				ExpectedConditions.elementToBeClickable(By.xpath("//a[normalize-space()='Terms and Conditions']")));
+		// clear_cache();
 		Thread.sleep(3000);
-		js.executeScript("arguments[0].scrollIntoView();",Terms_and_Contidion);
+		js.executeScript("arguments[0].scrollIntoView();", Terms_and_Contidion);
 		Terms_and_Contidion.click();
 		log.info("FOOTER -->TERMS AND CONDITION");
 		Thread.sleep(3000);
