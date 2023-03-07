@@ -20,10 +20,11 @@ public class website_all_links extends Setup {
 	JavascriptExecutor js = (JavascriptExecutor) driver;
 
 	public void clear_cache() throws InterruptedException {
-		/*
-		 * driver.manage().deleteAllCookies(); Thread.sleep(4200);
-		 * log.info("DELETE COOKIES");
-		 */
+
+		driver.manage().deleteAllCookies();
+		Thread.sleep(4200);
+		log.info("DELETE COOKIES");
+
 		driver.get(AppURL);
 	}
 
